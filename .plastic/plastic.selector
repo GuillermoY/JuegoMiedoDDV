@@ -1,0 +1,4 @@
+repository "JuegoMiedoDDV-URP@Guilramo@cloud"
+  path "/"
+    br "/main"
+    co "/main"
