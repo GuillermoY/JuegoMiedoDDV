@@ -1,10 +1,10 @@
 {
-  "id": "c6fb68a17c354021a0344e5e3c9a928b",
+  "id": "7de689d505e546e6b4a06922f2df0c4a",
   "playerData": {
     "position": {
-      "x": 25.0,
-      "y": 0.0,
-      "z": 3.0
+      "x": 0.0,
+      "y": 1.0,
+      "z": -3.7
     },
     "rotation": {
       "x": 0.0,
@@ -54,12 +54,65 @@
   },
   "worldState": {
     "worldSaveables": {
-      "RainingSet.d61a7e2b02783e54aa4c815599bcbac1": {
-        "raining": true
+      "DraggableItem.3e68c6f6b1c44134a82bf3d46b6da441": {
+        "position": {
+          "x": -6.59404564,
+          "y": -58.9675,
+          "z": -2.4057138
+        },
+        "rotation": {
+          "x": 270.0,
+          "y": 32.50895,
+          "z": 0.0
+        }
       },
-      "TimedInteractEvent.0c497a7105f0eb74b91eeb39b3684349": {
+      "TimedInteractEvent.ff2e5aea67d50d8418f8686a54fc5984": {
         "interactOnce": false,
         "isInteractTimed": false
+      },
+      "DraggableItem.91dd442fed268b941ac38fc3b603adf7": {
+        "position": {
+          "x": -17.0124531,
+          "y": -58.9400024,
+          "z": -4.941887
+        },
+        "rotation": {
+          "x": 359.974,
+          "y": 167.845261,
+          "z": 179.998535
+        }
+      },
+      "SaveableObject.cf1c6973fc756394f97c258f3aaa8d04": {
+        "position": {
+          "x": 0.0,
+          "y": -29.0,
+          "z": -2.0
+        },
+        "rotation": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        }
+      },
+      "NPCHealth.8265adb30f32746429b547e96c47e169": {
+        "position": {
+          "x": -17.0360126,
+          "y": -58.9676666,
+          "z": -2.40262222
+        },
+        "rotation": {
+          "x": 0.0,
+          "y": 270.531769,
+          "z": 0.0
+        },
+        "health": 100
+      },
+      "TimedInteractEvent.95db2638c2db08744aa4f2aa8be2a4f0": {
+        "interactOnce": false,
+        "isInteractTimed": false
+      },
+      "ElevatorSystem.d02f0d61bd5dd474eade2bce1d473c5b": {
+        "floor": 2
       }
     },
     "runtimeSaveables": {}
