@@ -91,11 +91,11 @@ namespace UHFPS.Runtime
 
         private void Update()
         {
-            if (!isEnabled && !isHolding) 
+            if (!isEnabled && !isHolding)
                 return;
 
             Ray playerAim = MainCamera.ViewportPointToRay(new Vector3(0.5f, 0.5f, 0));
-            if(GameTools.Raycast(playerAim, out RaycastHit hit, RaycastRange, CullLayers, InteractLayer))
+            if (GameTools.Raycast(playerAim, out RaycastHit hit, RaycastRange, CullLayers, InteractLayer))
             {
                 raycastObject = hit.collider.gameObject;
 
@@ -105,9 +105,9 @@ namespace UHFPS.Runtime
                     localHitpoint = interactableObject.transform.InverseTransformPoint(hit.point);
                 }
 
-                if(raycastObject != null)
+                if (raycastObject != null)
                 {
-                    if(lastRaycastObject != null && raycastObject != lastRaycastObject)
+                    if (lastRaycastObject != null && raycastObject != lastRaycastObject)
                     {
                         foreach (var hoverEnd in lastRaycastObject.GetComponents<IHoverEnd>())
                         {
@@ -166,7 +166,7 @@ namespace UHFPS.Runtime
                             interactStart.InteractStart();
                         }
 
-                        if(interactableObject.TryGetComponent(out IInteractTimed timedInteract))
+                        if (interactableObject.TryGetComponent(out IInteractTimed timedInteract))
                         {
                             if (!timedInteract.NoInteract)
                             {
@@ -176,10 +176,10 @@ namespace UHFPS.Runtime
                             }
                         }
 
-                        if(interactableObject.TryGetComponent(out IStateInteract stateInteract))
+                        if (interactableObject.TryGetComponent(out IStateInteract stateInteract))
                         {
                             StateParams stateParams = stateInteract.OnStateInteract();
-                            if(stateParams != null) player.ChangeState(stateParams.stateKey, stateParams.stateData);
+                            if (stateParams != null) player.ChangeState(stateParams.stateKey, stateParams.stateData);
                         }
 
                         if (interactableObject.TryGetComponent(out DynamicObject dynamicObject))
@@ -258,7 +258,7 @@ namespace UHFPS.Runtime
                 isHolding = false;
             }
 
-            if(isPressed && isTimed)
+            if (isPressed && isTimed)
             {
                 if (holdTime < reqHoldTime)
                 {
@@ -277,7 +277,7 @@ namespace UHFPS.Runtime
                 }
             }
 
-            if(isPressed && holdPointObject && interactableObject)
+            if (isPressed && holdPointObject && interactableObject)
             {
                 float distance = Vector3.Distance(MainCamera.transform.position, holdPointObject.position);
                 if (distance > HoldDistance)
@@ -355,8 +355,8 @@ namespace UHFPS.Runtime
             {
                 button1 = new()
                 {
-                     InputAction = button1Action,
-                     InteractName = button1Text
+                    InputAction = button1Action,
+                    InteractName = button1Text
                 };
             }
 
@@ -372,14 +372,14 @@ namespace UHFPS.Runtime
 
             gameManager.InteractInfoPanel.ShowInfo(new()
             {
-                 ObjectName = titleText,
-                 Contexts = new[] { button1, button2 }
+                ObjectName = titleText,
+                Contexts = new[] { button1, button2 }
             });
         }
 
         public void Interact(GameObject interactObj)
         {
-            if(interactObj.TryGetComponent(out InteractableItem interactable))
+            if (interactObj.TryGetComponent(out InteractableItem interactable))
             {
                 bool isAddedToInventory = false;
                 int shortcutId = -1;
@@ -389,7 +389,7 @@ namespace UHFPS.Runtime
                     isAddedToInventory = inventory.AddItem(interactable.PickupItem.GUID, interactable.Quantity, interactable.ItemCustomData, out var addedItem);
                     if (isAddedToInventory)
                     {
-                        if(interactable.AutoShortcut)
+                        if (interactable.AutoShortcut)
                             shortcutId = inventory.AutoShortcut(addedItem);
 
                         if (interactable.AutoEquip && addedItem.Item.Settings.isUsable && addedItem.Item.UsableSettings.usableType == UsableType.PlayerItem)
@@ -426,7 +426,7 @@ namespace UHFPS.Runtime
                     }
                 }
 
-                if(isAddedToInventory || interactable.InteractableType == InteractableTypeEnum.GenericItem)
+                if (isAddedToInventory || interactable.InteractableType == InteractableTypeEnum.GenericItem)
                 {
                     interactable.OnInteract();
                 }
@@ -435,7 +435,7 @@ namespace UHFPS.Runtime
 
         private void OnDrawGizmos()
         {
-            if(interactableObject != null && isHoldPointCreated)
+            if (interactableObject != null && isHoldPointCreated)
             {
                 Vector3 pointPos = interactableObject.transform.TransformPoint(localHitpoint);
                 Gizmos.color = Color.red.Alpha(0.5f);

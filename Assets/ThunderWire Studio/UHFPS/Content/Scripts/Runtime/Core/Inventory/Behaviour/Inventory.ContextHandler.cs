@@ -44,12 +44,12 @@ namespace UHFPS.Runtime
 
         public void ContextUpdate()
         {
-            if (examine.IsExamining || gameManager.IsPaused) 
+            if (examine.IsExamining || gameManager.IsPaused)
                 return;
 
             for (int i = 0; i < shortcuts.Length; i++)
             {
-                if(InputManager.ReadButtonOnce("Shortcut" + (1 + i), Controls.SHORTCUT_PREFIX + (1 + i)))
+                if (InputManager.ReadButtonOnce("Shortcut" + (1 + i), Controls.SHORTCUT_PREFIX + (1 + i)))
                 {
                     if (bindShortcut && activeItem != null)
                     {
@@ -106,29 +106,29 @@ namespace UHFPS.Runtime
                 if (usableType == UsableType.PlayerItem)
                 {
                     int playerItemIndex = item.Item.UsableSettings.playerItemIndex;
-                    if(playerItemIndex >= 0) PlayerItems.SwitchPlayerItem(playerItemIndex);
+                    if (playerItemIndex >= 0) PlayerItems.SwitchPlayerItem(playerItemIndex);
                 }
-                else if(usableType == UsableType.HealthItem)
+                else if (usableType == UsableType.HealthItem)
                 {
                     PlayerHealth playerHealth = playerPresence.PlayerManager.PlayerHealth;
                     int healAmount = (int)item.Item.UsableSettings.healthPoints;
                     int currentHealth = playerHealth.EntityHealth;
 
-                    if(currentHealth < playerHealth.MaxEntityHealth)
+                    if (currentHealth < playerHealth.MaxEntityHealth)
                     {
                         playerHealth.OnApplyHeal(healAmount);
                         RemoveItem(item, 1);
                     }
                 }
-                else if(usableType == UsableType.CustomEvent)
+                else if (usableType == UsableType.CustomEvent)
                 {
                     CallUseEvent(item);
-                    if(item.Item.UsableSettings.removeOnUse)
+                    if (item.Item.UsableSettings.removeOnUse)
                         RemoveItem(item, 1);
                 }
             }
 
-            if(fromInventory)
+            if (fromInventory)
                 gameManager.ShowInventoryPanel(false);
         }
 
@@ -291,7 +291,7 @@ namespace UHFPS.Runtime
 
         private void SetShortcut(int index)
         {
-            if(shortcuts[index].item == activeItem)
+            if (shortcuts[index].item == activeItem)
             {
                 shortcuts[index].item = null;
                 shortcuts[index].slot.SetItem(null);
@@ -358,11 +358,11 @@ namespace UHFPS.Runtime
             Vector3 dropPosition = examine.DropPosition;
             Item item = activeItem.Item;
 
-            if(item.ItemObject != null)
+            if (item.ItemObject != null)
             {
                 GameObject dropObj = SaveGameManager.InstantiateSaveable(item.ItemObject, dropPosition, Vector3.zero, "Drop of " + item.Title);
 
-                if(dropObj.TryGetComponent(out Rigidbody rigidbody))
+                if (dropObj.TryGetComponent(out Rigidbody rigidbody))
                 {
                     rigidbody.useGravity = true;
                     rigidbody.isKinematic = false;
@@ -375,7 +375,7 @@ namespace UHFPS.Runtime
                     return;
                 }
 
-                if(dropObj.TryGetComponent(out InteractableItem interactable))
+                if (dropObj.TryGetComponent(out InteractableItem interactable))
                 {
                     interactable.DisableType = InteractableItem.DisableTypeEnum.Destroy;
                     interactable.Quantity = (ushort)activeItem.Quantity;
