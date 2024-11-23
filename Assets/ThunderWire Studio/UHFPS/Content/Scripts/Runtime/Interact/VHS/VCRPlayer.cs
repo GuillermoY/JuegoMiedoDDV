@@ -296,7 +296,9 @@ namespace UHFPS.Runtime
                     string videoPath = video.ToString();
                     VideoClip videoClip = Resources.Load<VideoClip>(videoPath);
                     monitor.PrepareVideo(videoClip, outputTexture);
+
                     tapeDuration = videoClip.length;
+
                 }
 
                 VHSTape.gameObject.SetActive(true);
