@@ -108,7 +108,7 @@ namespace UHFPS.Runtime
             int seconds = ((int)time) % 60;
             int minutes = Mathf.FloorToInt((int)time / 60f);
             timeText.text = string.Format(displayFormat, minutes, seconds);
-            if(setCurrent) currentTime = time;
+            if (setCurrent) currentTime = time;
         }
 
         public void PowerOnOff()
@@ -134,7 +134,7 @@ namespace UHFPS.Runtime
                 }
 
                 insertCollider.gameObject.SetActive(canInsert);
-                if(emissionMaterial.IsAssigned)
+                if (emissionMaterial.IsAssigned)
                     emissionMaterial.ClonedMaterial.EnableKeyword(emissionKeyword);
             }
             else
@@ -193,7 +193,7 @@ namespace UHFPS.Runtime
                 isStarted = true;
                 isPaused = false;
             }
-            else if(!isPaused)
+            else if (!isPaused)
             {
                 SetDisplayText(DisplayText.Pause);
                 monitor.videoPlayer.Pause();
@@ -243,7 +243,7 @@ namespace UHFPS.Runtime
 
         public void Rewind()
         {
-            if(isStarted && !isWinding && (tapeDuration - currentTime) < tapeDuration - 0.5f)
+            if (isStarted && !isWinding && (tapeDuration - currentTime) < tapeDuration - 0.5f)
             {
                 monitor.videoPlayer.Pause();
                 StartCoroutine(OnRewind());
@@ -280,10 +280,10 @@ namespace UHFPS.Runtime
 
         public void OnInventoryItemSelect(Inventory inventory, InventoryItem selectedItem)
         {
-            if(selectedItem.ItemGuid == VHSItem)
+            if (selectedItem.ItemGuid == VHSItem)
             {
                 var customData = selectedItem.CustomData.GetJson();
-                if(customData.TryGetValue("texture", out JToken texture))
+                if (customData.TryGetValue("texture", out JToken texture))
                 {
                     string texturePath = texture.ToString();
                     Texture2D tapeTexture = Resources.Load<Texture2D>(texturePath);
@@ -443,7 +443,7 @@ namespace UHFPS.Runtime
                 { nameof(canEject), canEject },
                 { nameof(isEnded), isEnded },
                 { "playtime", currentTime },
-                { "customData", !string.IsNullOrEmpty(tapeCustomData) 
+                { "customData", !string.IsNullOrEmpty(tapeCustomData)
                     ? JObject.Parse(tapeCustomData) : new JObject() }
             };
         }
