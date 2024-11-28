@@ -1586,6 +1586,10 @@ PrefabInstance:
       value: GAMEMANAGER
       objectReference: {fileID: 0}
     - target: {fileID: 6431321005118203208, guid: afafcbdd323dc8f46ae17a1538073504, type: 3}
+      propertyPath: inventoryDatabase
+      value: 
+      objectReference: {fileID: 11400000, guid: 91b6697490acb924abe7ddaa544ef481, type: 2}
+    - target: {fileID: 6431321005118203208, guid: afafcbdd323dc8f46ae17a1538073504, type: 3}
       propertyPath: startingItems.Array.size
       value: 2
       objectReference: {fileID: 0}
