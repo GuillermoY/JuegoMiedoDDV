@@ -584,7 +584,7 @@ MonoBehaviour:
   DynamicTitle:
     ReflectType: 0
     Instance: {fileID: 3842738893921442601}
-    ReflectName: isPoweredOn
+    ReflectName: videoPlayer
     ReflectDerived: 0
   DynamicUseTitle:
     ReflectType: 0
