@@ -323,6 +323,25 @@ MonoBehaviour:
       Text: 'IF YOU ARE READING THIS
 
         DON''T LOOK BEHIND YOU'
+    - Key: secret
+      Text: 'Never gonna give you up
+
+        Never gonna let you down
+
+        Never
+        gonna run around you
+
+        And desert you
+
+        Never gonna make you
+        cry
+
+        Never gonna say goodbye
+
+        Never gonna tell a lie
+
+        And
+        forget you'
   - Section: inventory
     Localizations:
     - Key: context.use
