@@ -2596,7 +2596,12 @@ PrefabInstance:
       propertyPath: m_LocalPosition.z
       value: -0.015
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 4062791919533197338, guid: 7c70a6517c8f14c4a81eea608f695238, type: 3}
+    - {fileID: 624443609035869194, guid: 7c70a6517c8f14c4a81eea608f695238, type: 3}
+    - {fileID: 3777275867910967811, guid: 7c70a6517c8f14c4a81eea608f695238, type: 3}
+    - {fileID: 6939826240697571548, guid: 7c70a6517c8f14c4a81eea608f695238, type: 3}
+    - {fileID: 3515316404717392597, guid: 7c70a6517c8f14c4a81eea608f695238, type: 3}
     m_RemovedGameObjects:
     - {fileID: 6272030187780781704, guid: 7c70a6517c8f14c4a81eea608f695238, type: 3}
     - {fileID: 4139177739363331600, guid: 7c70a6517c8f14c4a81eea608f695238, type: 3}
@@ -2951,6 +2956,10 @@ PrefabInstance:
       propertyPath: m_AnchoredPosition.y
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 3588836070103686767, guid: afafcbdd323dc8f46ae17a1538073504, type: 3}
+      propertyPath: ObjectivesAsset
+      value: 
+      objectReference: {fileID: 11400000, guid: 002cb3d36cb5f344ea38fc350a85e6fa, type: 2}
     - target: {fileID: 3945397466430555334, guid: afafcbdd323dc8f46ae17a1538073504, type: 3}
       propertyPath: Player
       value: 
@@ -4116,11 +4125,39 @@ MeshRenderer:
   m_CorrespondingSourceObject: {fileID: 6850412800169070866, guid: 7c70a6517c8f14c4a81eea608f695238, type: 3}
   m_PrefabInstance: {fileID: 871621101}
   m_PrefabAsset: {fileID: 0}
---- !u!23 &1526954542 stripped
-MeshRenderer:
-  m_CorrespondingSourceObject: {fileID: 7263332965965881555, guid: 7c70a6517c8f14c4a81eea608f695238, type: 3}
-  m_PrefabInstance: {fileID: 871621101}
+--- !u!1 &1526186355
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1526186356}
+  m_Layer: 0
+  m_Name: ObjetivoTrigger
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1526186356
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1526186355}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 279.62686, y: 8.681943, z: 262.12747}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 1821229971}
+  - {fileID: 2045110465}
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!4 &1531693450 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: c6314352428320c45b3f24a3b0cac713, type: 3}
@@ -4729,6 +4766,103 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 4476567062582624748, guid: fa621dc58798b1f48b30e347e7defd46, type: 3}
   m_PrefabInstance: {fileID: 1816630299}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &1821229970
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1821229971}
+  - component: {fileID: 1821229973}
+  - component: {fileID: 1821229972}
+  - component: {fileID: 1821229974}
+  m_Layer: 0
+  m_Name: InvestigaCasa
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1821229971
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1821229970}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -1.2, y: -1.12, z: -0.9}
+  m_LocalScale: {x: 1, y: 3.0862, z: 3}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1526186356}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1821229972
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1821229970}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0bef1a4507177f14ca3a2b2e08bd4e6d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  triggerType: 0
+  objectiveType: 0
+  objectiveToAdd:
+    ObjectiveKey: InvestigaCasa
+    SubObjectives:
+    - 
+  objectiveToComplete:
+    ObjectiveKey: 
+    SubObjectives: []
+--- !u!65 &1821229973
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1821229970}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 1
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 1, y: 1, z: 1}
+  m_Center: {x: 0, y: 0, z: 0}
+--- !u!114 &1821229974
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1821229970}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0bef1a4507177f14ca3a2b2e08bd4e6d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  triggerType: 0
+  objectiveType: 1
+  objectiveToAdd:
+    ObjectiveKey: 
+    SubObjectives: []
+  objectiveToComplete:
+    ObjectiveKey: EntraCasa
+    SubObjectives:
+    - EntraCasa
 --- !u!1 &1822854510
 GameObject:
   m_ObjectHideFlags: 0
@@ -5103,7 +5237,6 @@ GameObject:
   - component: {fileID: 2015552601}
   - component: {fileID: 2015552604}
   - component: {fileID: 2015552603}
-  - component: {fileID: 2015552602}
   m_Layer: 0
   m_Name: Cube_5
   m_TagString: Untagged
@@ -5126,27 +5259,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 363600560}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!65 &2015552602
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2015552600}
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_IsTrigger: 0
-  m_ProvidesContacts: 0
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Size: {x: 1, y: 1, z: 1}
-  m_Center: {x: 0, y: 0, z: 0}
 --- !u!23 &2015552603
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -5212,14 +5324,84 @@ MeshRenderer:
   m_CorrespondingSourceObject: {fileID: -6538425798363576931, guid: c6314352428320c45b3f24a3b0cac713, type: 3}
   m_PrefabInstance: {fileID: 589814604}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &2045110464
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2045110465}
+  - component: {fileID: 2045110467}
+  - component: {fileID: 2045110466}
+  m_Layer: 0
+  m_Name: EntraCasa
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2045110465
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2045110464}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 68.11429, y: -8.559, z: 24.013458}
+  m_LocalScale: {x: 1, y: 4, z: 6}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1526186356}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &2045110466
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2045110464}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0bef1a4507177f14ca3a2b2e08bd4e6d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  triggerType: 0
+  objectiveType: 0
+  objectiveToAdd:
+    ObjectiveKey: EntraCasa
+    SubObjectives:
+    - EntraCasa
+  objectiveToComplete:
+    ObjectiveKey: 
+    SubObjectives: []
+--- !u!65 &2045110467
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2045110464}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 1
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 1, y: 1, z: 1}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!23 &2046326603 stripped
 MeshRenderer:
   m_CorrespondingSourceObject: {fileID: 3478372832478220442, guid: 7c70a6517c8f14c4a81eea608f695238, type: 3}
-  m_PrefabInstance: {fileID: 871621101}
-  m_PrefabAsset: {fileID: 0}
---- !u!23 &2048380098 stripped
-MeshRenderer:
-  m_CorrespondingSourceObject: {fileID: 4735990135321839294, guid: 7c70a6517c8f14c4a81eea608f695238, type: 3}
   m_PrefabInstance: {fileID: 871621101}
   m_PrefabAsset: {fileID: 0}
 --- !u!65 &2048380101
@@ -5419,9 +5601,6 @@ LODGroup:
     - renderer: {fileID: 1159433541}
     - renderer: {fileID: 19804268}
     - renderer: {fileID: 1105148330}
-    - renderer: {fileID: 2048380098}
-    - renderer: {fileID: 2138564827}
-    - renderer: {fileID: 1526954542}
   m_Enabled: 1
 --- !u!23 &2117344759 stripped
 MeshRenderer:
@@ -5436,11 +5615,6 @@ MeshRenderer:
 --- !u!23 &2132675687 stripped
 MeshRenderer:
   m_CorrespondingSourceObject: {fileID: 2699839969065136267, guid: 7c70a6517c8f14c4a81eea608f695238, type: 3}
-  m_PrefabInstance: {fileID: 871621101}
-  m_PrefabAsset: {fileID: 0}
---- !u!23 &2138564827 stripped
-MeshRenderer:
-  m_CorrespondingSourceObject: {fileID: 7933225847621935949, guid: 7c70a6517c8f14c4a81eea608f695238, type: 3}
   m_PrefabInstance: {fileID: 871621101}
   m_PrefabAsset: {fileID: 0}
 --- !u!23 &2139815428 stripped
@@ -5523,3 +5697,4 @@ SceneRoots:
   m_ObjectHideFlags: 0
   m_Roots:
   - {fileID: 871621101}
+  - {fileID: 1526186356}
