@@ -324,24 +324,27 @@ MonoBehaviour:
 
         DON''T LOOK BEHIND YOU'
     - Key: secret
-      Text: 'Never gonna give you up
+      Text: '              RICK ASHLEY
 
-        Never gonna let you down
+
+        Never gonna give you up
 
         Never
-        gonna run around you
+        gonna let you down
 
-        And desert you
+        Never gonna run around you
 
-        Never gonna make you
-        cry
+        And desert
+        you
+
+        Never gonna make you cry
 
         Never gonna say goodbye
 
-        Never gonna tell a lie
+        Never
+        gonna tell a lie
 
-        And
-        forget you'
+        And forget you'
   - Section: inventory
     Localizations:
     - Key: context.use
