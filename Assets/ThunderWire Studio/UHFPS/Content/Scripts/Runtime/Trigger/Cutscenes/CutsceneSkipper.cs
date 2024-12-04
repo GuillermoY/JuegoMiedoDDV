@@ -16,6 +16,13 @@ public class CutsceneSkipper : MonoBehaviour
     }
     public void SkipCutscene(float TiempoCutScene)
     {
-        pDirector.time = TiempoCutScene;
+        if (pDirector.time < 40f)
+        {
+            pDirector.time = TiempoCutScene;
+        }
+        else
+        {
+            pDirector.time = TiempoCutScene+39;
+        }
     }
 }
