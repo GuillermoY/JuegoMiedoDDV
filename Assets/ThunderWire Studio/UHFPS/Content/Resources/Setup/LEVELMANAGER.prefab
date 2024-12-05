@@ -259,7 +259,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Super long title
+  m_text: "La mansi\xF3n"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 23a2e4951b27c634f8ab472943900536, type: 2}
   m_sharedMaterial: {fileID: 4776011876496188843, guid: 23a2e4951b27c634f8ab472943900536, type: 2}
@@ -621,7 +621,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: 'USEFUL TIP:'
+  m_text: 'CONSEJO:'
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 23a2e4951b27c634f8ab472943900536, type: 2}
   m_sharedMaterial: {fileID: 4776011876496188843, guid: 23a2e4951b27c634f8ab472943900536, type: 2}
@@ -738,6 +738,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   LocalizationAsset: {fileID: 11400000, guid: eb428cfc60b31bc43ad7ff159b1157e4, type: 2}
+  ShowWarnings: 1
 --- !u!114 &739956880366519295
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -994,7 +995,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Press any key
+  m_text: Presiona una tecla
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 23a2e4951b27c634f8ab472943900536, type: 2}
   m_sharedMaterial: {fileID: 4776011876496188843, guid: 23a2e4951b27c634f8ab472943900536, type: 2}
@@ -1262,9 +1263,10 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
-    tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-    quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+  m_text: "Emberga varios misterios y se debe descubrir el secreto de esta. Para
+    ello, deber\xE1s ir resolviendo puzles que le permitir\xE1n acceder a nuevas
+    estancias dentro de la mansi\xF3n hasta, eventualmente, descubrir el secreto
+    que \xE9sta encierra y escapar. Mira bien en los cajones y los armarios."
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 47b5d910a9846af4dbb21621995290de, type: 2}
   m_sharedMaterial: {fileID: -4185391628614124083, guid: 47b5d910a9846af4dbb21621995290de, type: 2}
@@ -1494,8 +1496,8 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
-    tempor incididunt ut labore et dolore magna aliqua.
+  m_text: "Aseg\xFArate de usar la c\xE1mara en lugares que no puedes ver, es un
+    recurso limitado que bajar\xE1 tu cordura usado de forma err\xF3nea."
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 47b5d910a9846af4dbb21621995290de, type: 2}
   m_sharedMaterial: {fileID: -4185391628614124083, guid: 47b5d910a9846af4dbb21621995290de, type: 2}
@@ -1875,7 +1877,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: eacf2088e5eeadc418caffa9cc189eff, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 6f197f48381890947bd4d2637a027fe9, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1

@@ -84,12 +84,13 @@ namespace UHFPS.Runtime
                 float healthValue = gameManager.HealthBar.value;
                 healthValue = Mathf.SmoothDamp(healthValue, targetHealth, ref healthVelocity, HealthFadeTime);
                 gameManager.HealthBar.value = healthValue;
+                /*
                 if (healthValue < 40)
                 {
                     targetBlood = 1f;
                     bloodTime = BloodDuration;
                 }
-
+                
                 if (EntityHealth > MinHealthFade)
                 {
                     if (bloodTime > 0f) bloodTime -= Time.deltaTime;
@@ -99,7 +100,7 @@ namespace UHFPS.Runtime
                         bloodTime = 0f;
                     }
                 }
-
+                */
 
 
                 bloodWeight = Mathf.MoveTowards(bloodWeight, targetBlood, Time.deltaTime * (bloodTime > 0 ? BloodFadeInSpeed : BloodFadeOutSpeed));
@@ -200,13 +201,14 @@ namespace UHFPS.Runtime
             base.OnApplyDamage(damage, sender);
 
 
-                //if (UseDamageSounds && DamageSounds.Length > 0)
-                //{
-                //    int damageSound = GameTools.RandomUnique(0, DamageSounds.Length, lastDamageSound);
-                //    GameTools.PlayOneShot2D(transform.position, DamageSounds[damageSound], DamageVolume, "DamageSound");
-                //    lastDamageSound = damageSound;
-                //}
-
+            //if (UseDamageSounds && DamageSounds.Length > 0)
+            //{
+            //    int damageSound = GameTools.RandomUnique(0, DamageSounds.Length, lastDamageSound);
+            //    GameTools.PlayOneShot2D(transform.position, DamageSounds[damageSound], DamageVolume, "DamageSound");
+            //    lastDamageSound = damageSound;
+            //}
+            targetBlood = 1f;
+            bloodTime = BloodDuration;
 
         }
 

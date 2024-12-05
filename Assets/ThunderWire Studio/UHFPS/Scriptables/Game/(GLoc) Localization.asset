@@ -114,16 +114,15 @@ MonoBehaviour:
   - Section: loading
     Localizations:
     - Key: description.demoscene
-      Text: In this demo scene, you will be able to witness and explore all the impressive
-        features that come with the kit. This scene has been specially designed to
-        showcase the full potential of the asset, so you can fully test its capabilities.
+      Text: "Aseg\xFArate de usar la c\xE1mara en lugares que no puedes ver, es un
+        recurso limitado que bajar\xE1 tu cordura usado de forma err\xF3nea."
     - Key: description.demoscene2
-      Text: In this interactive demo scene, you will have the opportunity to engage
-        firsthand with the elevator system, showcasing its seamless operation and
-        integration along with the other great features of the kit.
+      Text: "Para mantener el medidor a raya, el jugador deber\xE1 ir tomando unas
+        medicinas que tendr\xE1s que ir encontrando por la casa."
     - Key: description.demoscene3
-      Text: It's raining outside, you can test how the raindrop effect works when
-        you're sheltered under a roof or not.
+      Text: "Tu inventario est\xE1 conformado por casillas en las que guardar objetos
+        (cada objeto ocupar\xE1 un n\xFAmero de casillas seg\xFAn su tama\xF1o) conformado
+        por 27 casillas."
   - Section: titles
     Localizations:
     - Key: putaway
@@ -541,11 +540,15 @@ MonoBehaviour:
   - Section: tips
     Localizations:
     - Key: tip1
-      Text: This is the first example of a tip.
+      Text: "Para mantener el medidor a raya, el jugador deber\xE1 ir tomando unas
+        medicinas que tendr\xE1s que ir encontrando por la casa."
     - Key: tip2
-      Text: This is the second example of a tip.
+      Text: "Aseg\xFArate de usar la c\xE1mara en lugares que no puedes ver, es un
+        recurso limitado que bajar\xE1 tu cordura usado de forma err\xF3nea."
     - Key: tip3
-      Text: This is the third example of a tip.
+      Text: "Inventario conformado por casillas en las que guardar objetos (cada
+        objeto ocupar\xE1 un n\xFAmero de casillas seg\xFAn su tama\xF1o) conformado
+        por 27 casillas."
   - Section: options
     Localizations:
     - Key: brightness

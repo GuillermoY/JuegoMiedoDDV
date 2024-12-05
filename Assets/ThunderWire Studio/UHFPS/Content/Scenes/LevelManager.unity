@@ -38,7 +38,6 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0, g: 0, b: 0, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -155,6 +154,17 @@ PrefabInstance:
       propertyPath: m_AnchoredPosition.y
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 1621731281362264209, guid: a6d90327880ef514da0c37e51d684ce0, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1680686305024344842, guid: a6d90327880ef514da0c37e51d684ce0, type: 3}
+      propertyPath: m_text
+      value: "Abarga grandes misterios y se debe descubrir el secreto de esta. Para
+        ello, deber\xE1s ir resolviendo puzles que le permitir\xE1n acceder a nuevas
+        estancias dentro de la mansi\xF3n hasta, eventualmente, descubrir el secreto
+        que \xE9sta encierra y escapar. Mira bien en los cajones y los armarios."
+      objectReference: {fileID: 0}
     - target: {fileID: 2674515566535311797, guid: a6d90327880ef514da0c37e51d684ce0, type: 3}
       propertyPath: m_Name
       value: LEVELMANAGER
@@ -198,6 +208,30 @@ PrefabInstance:
     - target: {fileID: 2889049964343838668, guid: a6d90327880ef514da0c37e51d684ce0, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3258474751609565036, guid: a6d90327880ef514da0c37e51d684ce0, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 1.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 3258474751609565036, guid: a6d90327880ef514da0c37e51d684ce0, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 1.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 3258474751609565036, guid: a6d90327880ef514da0c37e51d684ce0, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 1.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 3258474751609565036, guid: a6d90327880ef514da0c37e51d684ce0, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 440.75
+      objectReference: {fileID: 0}
+    - target: {fileID: 3258474751609565036, guid: a6d90327880ef514da0c37e51d684ce0, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: -227
+      objectReference: {fileID: 0}
+    - target: {fileID: 3258474751609565036, guid: a6d90327880ef514da0c37e51d684ce0, type: 3}
+      propertyPath: m_ConstrainProportionsScale
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 4162225303223942720, guid: a6d90327880ef514da0c37e51d684ce0, type: 3}
       propertyPath: m_AnchorMax.y
