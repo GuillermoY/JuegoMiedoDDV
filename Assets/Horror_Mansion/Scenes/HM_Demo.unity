@@ -37,7 +37,7 @@ RenderSettings:
   m_ReflectionBounces: 1
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
-  m_Sun: {fileID: 0}
+  m_Sun: {fileID: 1223984603}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -97,7 +97,7 @@ LightmapSettings:
     m_TrainingDataDestination: TrainingData
     m_LightProbeSampleCountMultiplier: 4
   m_LightingDataAsset: {fileID: 112000000, guid: 370b178adaec2aa45a5d5045a0720e22, type: 2}
-  m_LightingSettings: {fileID: 0}
+  m_LightingSettings: {fileID: 4890085278179872738, guid: a2c7f330a10b4484989bea46363f33ab, type: 2}
 --- !u!196 &4
 NavMeshSettings:
   serializedVersion: 2
@@ -1757,7 +1757,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 559481229467217342, guid: 07ab02e1be2545b42a0be6990f653661, type: 3}
       propertyPath: m_Intensity
-      value: 50
+      value: 100
       objectReference: {fileID: 0}
     - target: {fileID: 2019171006304844065, guid: 07ab02e1be2545b42a0be6990f653661, type: 3}
       propertyPath: m_Size.x
@@ -1771,6 +1771,10 @@ PrefabInstance:
       propertyPath: m_IsActive
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 2418285513450327594, guid: 07ab02e1be2545b42a0be6990f653661, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 6327645818712127352, guid: 07ab02e1be2545b42a0be6990f653661, type: 3}
       propertyPath: m_Size.x
       value: 107.00922
@@ -1781,11 +1785,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7407612290590685253, guid: 07ab02e1be2545b42a0be6990f653661, type: 3}
       propertyPath: m_Intensity
-      value: 50
+      value: 100
+      objectReference: {fileID: 0}
+    - target: {fileID: 8122283873195637061, guid: 07ab02e1be2545b42a0be6990f653661, type: 3}
+      propertyPath: m_Intensity
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 8217271351897736564, guid: 07ab02e1be2545b42a0be6990f653661, type: 3}
       propertyPath: m_Intensity
-      value: 50
+      value: 100
       objectReference: {fileID: 0}
     - target: {fileID: 8468052584426147197, guid: 07ab02e1be2545b42a0be6990f653661, type: 3}
       propertyPath: m_Size.x
@@ -1805,7 +1813,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8732154261897713305, guid: 07ab02e1be2545b42a0be6990f653661, type: 3}
       propertyPath: m_Intensity
-      value: 50
+      value: 100
       objectReference: {fileID: 0}
     - target: {fileID: 9079372944619729060, guid: 07ab02e1be2545b42a0be6990f653661, type: 3}
       propertyPath: vel
@@ -7096,6 +7104,14 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 185135367101617337, guid: 7c70a6517c8f14c4a81eea608f695238, type: 3}
+      propertyPath: m_LightCookieSize.x
+      value: 200
+      objectReference: {fileID: 0}
+    - target: {fileID: 185135367101617337, guid: 7c70a6517c8f14c4a81eea608f695238, type: 3}
+      propertyPath: m_LightCookieSize.y
+      value: 200
+      objectReference: {fileID: 0}
     - target: {fileID: 207860293017489476, guid: 7c70a6517c8f14c4a81eea608f695238, type: 3}
       propertyPath: m_IsActive
       value: 0
@@ -7247,6 +7263,10 @@ PrefabInstance:
     - target: {fileID: 1338542306379934756, guid: 7c70a6517c8f14c4a81eea608f695238, type: 3}
       propertyPath: m_LocalEulerAnglesHint.y
       value: 30
+      objectReference: {fileID: 0}
+    - target: {fileID: 1356447176043600661, guid: 7c70a6517c8f14c4a81eea608f695238, type: 3}
+      propertyPath: m_Intensity
+      value: 0.45
       objectReference: {fileID: 0}
     - target: {fileID: 1364112256887439639, guid: 7c70a6517c8f14c4a81eea608f695238, type: 3}
       propertyPath: m_ColorTemperature
@@ -10251,6 +10271,11 @@ MeshRenderer:
 Transform:
   m_CorrespondingSourceObject: {fileID: 5637544715429376015, guid: 2ed114f6f17cf4c4581c6ea5bf7a1802, type: 3}
   m_PrefabInstance: {fileID: 383014560}
+  m_PrefabAsset: {fileID: 0}
+--- !u!108 &1223984603 stripped
+Light:
+  m_CorrespondingSourceObject: {fileID: 1356447176043600661, guid: 7c70a6517c8f14c4a81eea608f695238, type: 3}
+  m_PrefabInstance: {fileID: 871621101}
   m_PrefabAsset: {fileID: 0}
 --- !u!1001 &1227802338
 PrefabInstance:
