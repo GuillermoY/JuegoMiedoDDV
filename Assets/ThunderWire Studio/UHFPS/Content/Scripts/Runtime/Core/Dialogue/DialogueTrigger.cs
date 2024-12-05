@@ -31,7 +31,7 @@ namespace UHFPS.Runtime
 
         private DialogueSystem dialogueSystem;
         private Transform playerTransform;
-        private bool isTriggered;
+        [SerializeField]private bool isTriggered;
 
         private void Awake()
         {
