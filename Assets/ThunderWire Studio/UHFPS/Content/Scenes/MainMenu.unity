@@ -135,7 +135,7 @@ VideoPlayer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 103732314}
   m_Enabled: 1
-  m_VideoClip: {fileID: 32900000, guid: d8c3002a28a35d54f87268e909a03db8, type: 3}
+  m_VideoClip: {fileID: 32900000, guid: 026beb3b7f093d54590383d114fade43, type: 3}
   m_TargetCameraAlpha: 1
   m_TargetCamera3DLayout: 0
   m_TargetCamera: {fileID: 0}
@@ -159,7 +159,7 @@ VideoPlayer:
   m_ControlledAudioTrackCount: 1
   m_PlayOnAwake: 1
   m_SkipOnDrop: 1
-  m_Looping: 0
+  m_Looping: 1
   m_WaitForFirstFrame: 1
   m_FrameReadyEventEnabled: 0
   m_VideoShaders: []
@@ -338,6 +338,10 @@ PrefabInstance:
     - target: {fileID: 6275129196263100955, guid: 68e978a15bedca6459a73e501a635e73, type: 3}
       propertyPath: m_AnchoredPosition.x
       value: -446.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 7389951039372158673, guid: 68e978a15bedca6459a73e501a635e73, type: 3}
+      propertyPath: m_text
+      value: Entrar Al Juego
       objectReference: {fileID: 0}
     - target: {fileID: 7851697640603163742, guid: 68e978a15bedca6459a73e501a635e73, type: 3}
       propertyPath: m_IsActive
