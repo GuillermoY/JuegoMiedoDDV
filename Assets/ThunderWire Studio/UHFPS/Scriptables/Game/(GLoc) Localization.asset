@@ -154,13 +154,13 @@ MonoBehaviour:
   - Section: interactions
     Localizations:
     - Key: use
-      Text: Use
+      Text: Usar
     - Key: use.hold
-      Text: Use (Hold)
+      Text: Usar (Mantener)
     - Key: grab
-      Text: Grab
+      Text: Agarrar
     - Key: examine
-      Text: Examine
+      Text: Examinar
     - Key: travel
       Text: Travel
     - Key: configure
@@ -184,9 +184,9 @@ MonoBehaviour:
     - Key: rotate
       Text: Rotate
     - Key: open
-      Text: Open
+      Text: Abrir
     - Key: close
-      Text: Close
+      Text: Cerrar
     - Key: extinguish
       Text: Extinguish
     - Key: kindle
@@ -200,7 +200,7 @@ MonoBehaviour:
   - Section: objects
     Localizations:
     - Key: circuit
-      Text: Electric Circuit
+      Text: Circuito Electrico
     - Key: fusebox
       Text: Fusebox
     - Key: keypad
@@ -253,6 +253,8 @@ MonoBehaviour:
       Text: Flood Light
     - Key: maze
       Text: Maze Puzzle
+    - Key: cabinet
+      Text: Puerta Armario
   - Section: controls
     Localizations:
     - Key: name.exit

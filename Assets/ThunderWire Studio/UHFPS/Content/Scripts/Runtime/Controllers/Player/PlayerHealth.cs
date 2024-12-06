@@ -41,7 +41,7 @@ namespace UHFPS.Runtime
         private float healthVelocity;
 
         private float bloodWeight;
-        private float targetBlood;
+        private float targetBlood = 0f;
         private float bloodTime;
         private float eyesTime;
 
