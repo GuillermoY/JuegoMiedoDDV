@@ -32783,6 +32783,10 @@ PrefabInstance:
       propertyPath: lockedText.GlocText
       value: '*La llave debe de estar en alguno de esos puzles que he visto antes'
       objectReference: {fileID: 0}
+    - target: {fileID: 2638714274828686622, guid: 4fb145edbd6d57745a279d8d4a782c32, type: 3}
+      propertyPath: openable.openLimits.min
+      value: 90
+      objectReference: {fileID: 0}
     - target: {fileID: 8835631244423981086, guid: 4fb145edbd6d57745a279d8d4a782c32, type: 3}
       propertyPath: m_LocalScale.x
       value: 0.8092737
