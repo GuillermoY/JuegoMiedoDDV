@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: Objectives
   m_EditorClassIdentifier: 
   Objectives:
-  - ObjectiveKey: EntraCasa
+  - ObjectiveKey: '*EntraCasa'
     ObjectiveTitle:
       GlocText: '*Entra en la Casa'
       NormalText: Entra en la Casa
@@ -21,19 +21,19 @@ MonoBehaviour:
     - SubObjectiveKey: EntraCasa
       CompleteCount: 0
       ObjectiveText:
-        GlocText: "Adentrate en la mansi\xF3n"
+        GlocText: "*Adentrate en la mansi\xF3n"
         NormalText: "Adentrate en la mansi\xF3n"
-  - ObjectiveKey: InvestigaCasa
+  - ObjectiveKey: '*InvestigaCasa'
     ObjectiveTitle:
       GlocText: '*Investiga la Casa'
       NormalText: Investiga la Casa
     SubObjectives:
-    - SubObjectiveKey: Investiga
+    - SubObjectiveKey: '*Investiga'
       CompleteCount: 0
       ObjectiveText:
         GlocText: '*Investiga Para grabar el suceso'
         NormalText: Investiga Para grabar el suceso
-    - SubObjectiveKey: Medciamentos
+    - SubObjectiveKey: '*Medicamentos'
       CompleteCount: 3
       ObjectiveText:
         GlocText: '*Recoge al menos 3 medicamentos para tratar tu salud'
