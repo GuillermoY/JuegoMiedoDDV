@@ -9,7 +9,6 @@ namespace UHFPS.Runtime
     {
         public uint MaxHealth = 100;
         public uint StartHealth = 100;
-
         public bool UseHearthbeat;
         public float LowHealthPulse = 5f;
         public float HealthFadeTime = 0.1f;
@@ -41,8 +40,8 @@ namespace UHFPS.Runtime
         private float healthVelocity;
 
         private float bloodWeight;
-        private float targetBlood = 0f;
-        private float bloodTime;
+        public float targetBlood;
+        public float bloodTime;
         private float eyesTime;
 
         private int lastDamageSound;
@@ -50,8 +49,6 @@ namespace UHFPS.Runtime
 
         private bool wasInAir;
         private bool lastPosLoaded;
-
-        private float timer;
 
         private void Awake()
         {
@@ -65,14 +62,6 @@ namespace UHFPS.Runtime
 
         private void Update()
         {
-
-            timer += Time.deltaTime;
-            if (timer >= 5)
-            {
-                Debug.Log("funciona");
-                OnApplyPsicosis(2, transform); // MADE BY MALTEN & GUILLE
-                timer = 0;
-            }
             if (!lastPosLoaded)
             {
                 lastPosition = transform.position;
@@ -84,67 +73,58 @@ namespace UHFPS.Runtime
                 float healthValue = gameManager.HealthBar.value;
                 healthValue = Mathf.SmoothDamp(healthValue, targetHealth, ref healthVelocity, HealthFadeTime);
                 gameManager.HealthBar.value = healthValue;
-                /*
-                if (healthValue < 40)
+            }
+
+            if (EntityHealth > MinHealthFade)
+            {
+                if (bloodTime > 0f) bloodTime -= Time.deltaTime;
+                else
                 {
-                    targetBlood = 1f;
-                    bloodTime = BloodDuration;
-                }
-                
-                if (EntityHealth > MinHealthFade)
-                {
-                    if (bloodTime > 0f) bloodTime -= Time.deltaTime;
-                    else
-                    {
-                        targetBlood = 0f;
-                        bloodTime = 0f;
-                    }
-                }
-                */
-
-
-                bloodWeight = Mathf.MoveTowards(bloodWeight, targetBlood, Time.deltaTime * (bloodTime > 0 ? BloodFadeInSpeed : BloodFadeOutSpeed));
-                gameManager.HealthPPVolume.weight = bloodWeight;
-
-                if (IsDead && eyeBlink != null)
-                {
-                    if (eyesTime < CloseEyesTime)
-                    {
-                        eyesTime += Time.deltaTime;
-                    }
-                    else
-                    {
-                        float blinkValue = eyeBlink.Blink.value;
-                        eyeBlink.Blink.value = Mathf.MoveTowards(blinkValue, 1f, Time.deltaTime * CloseEyesSpeed);
-                    }
-                }
-
-                if (!IsDead && EnableFallDamage)
-                {
-                    if (player.StateGrounded)
-                    {
-                        if (!wasInAir) lastPosition = transform.position;
-                        else
-                        {
-                            Vector3 dropPosition = transform.position;
-                            float fallDistance = Mathf.Clamp(lastPosition.y - dropPosition.y, 0, Mathf.Infinity);
-                            float fallModifier = Mathf.InverseLerp(FallDistance.RealMin, FallDistance.RealMax, fallDistance);
-                            float fallDamage = 0f;
-
-                            if (fallModifier > 0f) fallDamage = Mathf.Lerp(FallDamage.RealMin, FallDamage.RealMax, fallModifier);
-                            if (fallDamage > 1f) OnApplyDamage(Mathf.RoundToInt(fallDamage));
-                            wasInAir = false;
-                        }
-                    }
-                    else if (!wasInAir)
-                    {
-                        wasInAir = true;
-                    }
+                    targetBlood = 0f;
+                    bloodTime = 0f;
                 }
             }
 
-            
+            bloodWeight = Mathf.MoveTowards(bloodWeight, targetBlood, Time.deltaTime * (bloodTime > 0 ? BloodFadeInSpeed : BloodFadeOutSpeed));
+            gameManager.HealthPPVolume.weight = bloodWeight;
+
+            if (IsDead && eyeBlink != null)
+            {
+                if (eyesTime < CloseEyesTime)
+                {
+                    eyesTime += Time.deltaTime;
+                }
+                else
+                {
+                    float blinkValue = eyeBlink.Blink.value;
+                    eyeBlink.Blink.value = Mathf.MoveTowards(blinkValue, 1f, Time.deltaTime * CloseEyesSpeed);
+                }
+            }
+
+            if (!IsDead && EnableFallDamage)
+            {
+                if (player.StateGrounded)
+                {
+                    if (!wasInAir) lastPosition = transform.position;
+                    else
+                    {
+                        Vector3 dropPosition = transform.position;
+                        float fallDistance = Mathf.Clamp(lastPosition.y - dropPosition.y, 0, Mathf.Infinity);
+                        float fallModifier = Mathf.InverseLerp(FallDistance.RealMin, FallDistance.RealMax, fallDistance);
+                        float fallDamage = 0f;
+
+                        if (fallModifier > 0f) fallDamage = Mathf.Lerp(FallDamage.RealMin, FallDamage.RealMax, fallModifier);
+                        if (fallDamage > 1f) OnApplyDamage(Mathf.RoundToInt(fallDamage));
+                        wasInAir = false;
+                    }
+                }
+                else if (!wasInAir)
+                {
+                    wasInAir = true;
+                }
+            }
         }
+
         public void InitHealth()
         {
             InitializeHealth((int)StartHealth, (int)MaxHealth);
@@ -190,32 +170,12 @@ namespace UHFPS.Runtime
                 GameTools.PlayOneShot2D(transform.position, DamageSounds[damageSound], DamageVolume, "DamageSound");
                 lastDamageSound = damageSound;
             }
-
-            targetBlood = 1f;
-            bloodTime = BloodDuration;
-        }
-        public void OnApplyPsicosis(int damage, Transform sender = null)
-        {
-            if (IsDead) return;
-
-            base.OnApplyDamage(damage, sender);
-
-
-            //if (UseDamageSounds && DamageSounds.Length > 0)
-            //{
-            //    int damageSound = GameTools.RandomUnique(0, DamageSounds.Length, lastDamageSound);
-            //    GameTools.PlayOneShot2D(transform.position, DamageSounds[damageSound], DamageVolume, "DamageSound");
-            //    lastDamageSound = damageSound;
-            //}
-            targetBlood = 1f;
-            bloodTime = BloodDuration;
-
         }
 
         public override void OnApplyHeal(int healAmount)
         {
             base.OnApplyHeal(healAmount);
-            if(EntityHealth > MinHealthFade)
+            if (EntityHealth > MinHealthFade)
                 bloodTime = BloodDuration;
         }
 
