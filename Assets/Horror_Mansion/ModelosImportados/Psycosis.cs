@@ -19,7 +19,7 @@ namespace UHFPS.Runtime
         {
 
             timer += Time.deltaTime;
-            if (timer >= 5)
+            if (timer >= 25)
             {
                 //Debug.Log(pHealth.EntityHealth);
                 OnApplyPsicosis(2, pHealth.transform); // MADE BY MALTEN & GUILLE
