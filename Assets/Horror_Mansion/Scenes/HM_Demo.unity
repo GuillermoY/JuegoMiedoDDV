@@ -9716,84 +9716,6 @@ MeshRenderer:
   m_CorrespondingSourceObject: {fileID: 1688981787319263889, guid: 7c70a6517c8f14c4a81eea608f695238, type: 3}
   m_PrefabInstance: {fileID: 871621101}
   m_PrefabAsset: {fileID: 0}
---- !u!1001 &610670673
-PrefabInstance:
-  m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    serializedVersion: 3
-    m_TransformParent: {fileID: 912606208}
-    m_Modifications:
-    - target: {fileID: 246483536141008929, guid: 50c00682321929e4d96c981f76022502, type: 3}
-      propertyPath: m_LocalScale.x
-      value: 1.4099997
-      objectReference: {fileID: 0}
-    - target: {fileID: 246483536141008929, guid: 50c00682321929e4d96c981f76022502, type: 3}
-      propertyPath: m_LocalScale.y
-      value: 1.4100001
-      objectReference: {fileID: 0}
-    - target: {fileID: 246483536141008929, guid: 50c00682321929e4d96c981f76022502, type: 3}
-      propertyPath: m_LocalScale.z
-      value: 1.41
-      objectReference: {fileID: 0}
-    - target: {fileID: 246483536141008929, guid: 50c00682321929e4d96c981f76022502, type: 3}
-      propertyPath: m_LocalPosition.x
-      value: 281.415
-      objectReference: {fileID: 0}
-    - target: {fileID: 246483536141008929, guid: 50c00682321929e4d96c981f76022502, type: 3}
-      propertyPath: m_LocalPosition.y
-      value: 2.642
-      objectReference: {fileID: 0}
-    - target: {fileID: 246483536141008929, guid: 50c00682321929e4d96c981f76022502, type: 3}
-      propertyPath: m_LocalPosition.z
-      value: 250.94
-      objectReference: {fileID: 0}
-    - target: {fileID: 246483536141008929, guid: 50c00682321929e4d96c981f76022502, type: 3}
-      propertyPath: m_LocalRotation.w
-      value: -0.7269414
-      objectReference: {fileID: 0}
-    - target: {fileID: 246483536141008929, guid: 50c00682321929e4d96c981f76022502, type: 3}
-      propertyPath: m_LocalRotation.x
-      value: 0.0024174089
-      objectReference: {fileID: 0}
-    - target: {fileID: 246483536141008929, guid: 50c00682321929e4d96c981f76022502, type: 3}
-      propertyPath: m_LocalRotation.y
-      value: 0.68669516
-      objectReference: {fileID: 0}
-    - target: {fileID: 246483536141008929, guid: 50c00682321929e4d96c981f76022502, type: 3}
-      propertyPath: m_LocalRotation.z
-      value: 0.00054664834
-      objectReference: {fileID: 0}
-    - target: {fileID: 246483536141008929, guid: 50c00682321929e4d96c981f76022502, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.x
-      value: -0.244
-      objectReference: {fileID: 0}
-    - target: {fileID: 246483536141008929, guid: 50c00682321929e4d96c981f76022502, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.y
-      value: 273.261
-      objectReference: {fileID: 0}
-    - target: {fileID: 246483536141008929, guid: 50c00682321929e4d96c981f76022502, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.z
-      value: 0.145
-      objectReference: {fileID: 0}
-    - target: {fileID: 246483536141008929, guid: 50c00682321929e4d96c981f76022502, type: 3}
-      propertyPath: m_ConstrainProportionsScale
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 585608503358036635, guid: 50c00682321929e4d96c981f76022502, type: 3}
-      propertyPath: m_Name
-      value: Skull_Bone_1
-      objectReference: {fileID: 0}
-    m_RemovedComponents: []
-    m_RemovedGameObjects: []
-    m_AddedGameObjects: []
-    m_AddedComponents: []
-  m_SourcePrefab: {fileID: 100100000, guid: 50c00682321929e4d96c981f76022502, type: 3}
---- !u!4 &610670674 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: 246483536141008929, guid: 50c00682321929e4d96c981f76022502, type: 3}
-  m_PrefabInstance: {fileID: 610670673}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &611143011
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -16509,9 +16431,6 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 4495787532303855599, guid: 7c70a6517c8f14c4a81eea608f695238, type: 3}
       insertIndex: -1
       addedObject: {fileID: 1789976270}
-    - targetCorrespondingSourceObject: {fileID: 4495787532303855599, guid: 7c70a6517c8f14c4a81eea608f695238, type: 3}
-      insertIndex: -1
-      addedObject: {fileID: 610670674}
     - targetCorrespondingSourceObject: {fileID: 4495787532303855599, guid: 7c70a6517c8f14c4a81eea608f695238, type: 3}
       insertIndex: -1
       addedObject: {fileID: 31561908}
