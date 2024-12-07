@@ -29087,7 +29087,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &1417869160
 Transform:
   m_ObjectHideFlags: 0
@@ -29301,6 +29301,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1532507352}
     m_Modifications:
+    - target: {fileID: 2508350022637822261, guid: 7948bd403e151454fa3629eea46e2bc3, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: d04e63f4c4900684184ba0048b7da217, type: 2}
     - target: {fileID: 7421135087656976457, guid: 7948bd403e151454fa3629eea46e2bc3, type: 3}
       propertyPath: OnLeversCorrect.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
       value: 2
@@ -29385,6 +29389,18 @@ PrefabInstance:
       propertyPath: m_Name
       value: Puzzle_LeversOrder
       objectReference: {fileID: 0}
+    - target: {fileID: 7421135087879185881, guid: 7948bd403e151454fa3629eea46e2bc3, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 0d7ce83d0d3d1ec41b4c46f919321f6d, type: 2}
+    - target: {fileID: 7421135088082407099, guid: 7948bd403e151454fa3629eea46e2bc3, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 0736d56eb76cb764e9346797a8e7e99d, type: 2}
+    - target: {fileID: 7421135088901191147, guid: 7948bd403e151454fa3629eea46e2bc3, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 36fc03bf464029b479b6b3cb6041f20c, type: 2}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
