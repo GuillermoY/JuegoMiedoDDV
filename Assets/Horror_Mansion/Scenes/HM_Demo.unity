@@ -25764,6 +25764,11 @@ MeshRenderer:
   m_CorrespondingSourceObject: {fileID: 4142602537051124673, guid: 7c70a6517c8f14c4a81eea608f695238, type: 3}
   m_PrefabInstance: {fileID: 871621101}
   m_PrefabAsset: {fileID: 0}
+--- !u!4 &1347703063 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 7393187263638339606, guid: 7514f54206ed3334b8a1de87380935a0, type: 3}
+  m_PrefabInstance: {fileID: 1737507991}
+  m_PrefabAsset: {fileID: 0}
 --- !u!23 &1347717130 stripped
 MeshRenderer:
   m_CorrespondingSourceObject: {fileID: 2822061774642292514, guid: 7c70a6517c8f14c4a81eea608f695238, type: 3}
@@ -31269,6 +31274,7 @@ Transform:
   - {fileID: 754652288}
   - {fileID: 1793926048}
   - {fileID: 853381048}
+  - {fileID: 1347703063}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 4.893, z: 0}
 --- !u!1001 &1535419123
@@ -34165,39 +34171,51 @@ PrefabInstance:
   serializedVersion: 2
   m_Modification:
     serializedVersion: 3
-    m_TransformParent: {fileID: 0}
+    m_TransformParent: {fileID: 1532507352}
     m_Modifications:
     - target: {fileID: 848614388204731826, guid: 7514f54206ed3334b8a1de87380935a0, type: 3}
       propertyPath: m_Name
       value: PuzzleItem_KeycardRed
       objectReference: {fileID: 0}
     - target: {fileID: 7393187263638339606, guid: 7514f54206ed3334b8a1de87380935a0, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 1.5000002
+      objectReference: {fileID: 0}
+    - target: {fileID: 7393187263638339606, guid: 7514f54206ed3334b8a1de87380935a0, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 1.4999998
+      objectReference: {fileID: 0}
+    - target: {fileID: 7393187263638339606, guid: 7514f54206ed3334b8a1de87380935a0, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 1.4999998
+      objectReference: {fileID: 0}
+    - target: {fileID: 7393187263638339606, guid: 7514f54206ed3334b8a1de87380935a0, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 271.9981
+      value: 12.060168
       objectReference: {fileID: 0}
     - target: {fileID: 7393187263638339606, guid: 7514f54206ed3334b8a1de87380935a0, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 10.101925
+      value: 4.8502145
       objectReference: {fileID: 0}
     - target: {fileID: 7393187263638339606, guid: 7514f54206ed3334b8a1de87380935a0, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 245.89273
+      value: -12.743935
       objectReference: {fileID: 0}
     - target: {fileID: 7393187263638339606, guid: 7514f54206ed3334b8a1de87380935a0, type: 3}
       propertyPath: m_LocalRotation.w
-      value: 0.7071079
+      value: 0.7064633
       objectReference: {fileID: 0}
     - target: {fileID: 7393187263638339606, guid: 7514f54206ed3334b8a1de87380935a0, type: 3}
       propertyPath: m_LocalRotation.x
-      value: -0.7071057
+      value: -0.7064611
       objectReference: {fileID: 0}
     - target: {fileID: 7393187263638339606, guid: 7514f54206ed3334b8a1de87380935a0, type: 3}
       propertyPath: m_LocalRotation.y
-      value: -0
+      value: -0.030186895
       objectReference: {fileID: 0}
     - target: {fileID: 7393187263638339606, guid: 7514f54206ed3334b8a1de87380935a0, type: 3}
       propertyPath: m_LocalRotation.z
-      value: -0
+      value: -0.030186802
       objectReference: {fileID: 0}
     - target: {fileID: 7393187263638339606, guid: 7514f54206ed3334b8a1de87380935a0, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
@@ -41552,4 +41570,3 @@ SceneRoots:
   - {fileID: 1099938571}
   - {fileID: 871621101}
   - {fileID: 503872198}
-  - {fileID: 1737507991}
