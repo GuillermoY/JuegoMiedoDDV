@@ -346,6 +346,33 @@ MonoBehaviour:
         gonna tell a lie
 
         And forget you'
+    - Key: Dia1
+      Text: "D\xEDa 1,\nEmpiezo este diario porque el Gobierno Ruso ha decidido ponerme
+        a cargo de la investigaci\xF3n del Compuesto Z, una f\xF3rmula destinada
+        a crear super soldados. Hoy comienzo con mis tres sujetos de prueba, americanuchos
+        que me servir\xE1n para cumplir mi deber con la Patria. \r\n\r\nUno de ellos
+        trat\xF3 de atacarme hoy, as\xED que me veo en la obligaci\xF3n de encerrarlos
+        en una celda y suministrarles calmantes, adem\xE1s creo que esconder\xE9
+        la llave que abre el piso de arriba en el viejo juego del laberinto de mi
+        abuela que guardo en el sal\xF3n, solo para poder dormir tranquilo.\r\n"
+    - Key: Dia17
+      Text: "D\xEDa 17,\nHe sometido a los sujetos a varias dosis del Compuesto Z
+        desde la \xFAltima vez. La fiebre del sujeto sintom\xE1tico empeor\xF3 hasta
+        cobrarse su vida, y otros sujetos han empezado a mostrar s\xEDntomas similares.\r\n\r\nPor
+        otra parte, en lo que concierne al Proyecto P\u0430\u0437\u0443\u043C, hoy
+        me he sometido a la influencia del estimulante durante unas dos horas completas,
+        noto una mayor claridad mental, pero fuera de eso nada destacable.\r\n\r\n"
+    - Key: Dia32
+      Text: "D\xEDa 32,\nEl primer sujeto que padeci\xF3 la fiebre no pudo resistir
+        m\xE1s a pesar de mis esfuerzos y la fiebre se cobr\xF3 su vida. El resto
+        parecen seguir su mismo camino. No puedo evitar pensar en lo que he hecho
+        y si es demasiado tarde para volver atr\xE1s.\r\n\r\nEn lo referido al otro
+        proyecto, lo que antes era una sensaci\xF3n de claridad, se ha tornado en
+        un ruido incesante en mi cabeza que nubla mis pensamientos y no me deja descansar.
+        No s\xE9 cu\xE1nto m\xE1s voy a aguantar con todo esto.\r\n"
+    - Key: Dia666
+      Text: "D\xCDA _____     HA VUELTO \r\n   NOS ENGA\xD1ARON  NO ENTRES EL RUIDO
+        ES INSOPORTABLE ______ ME ARREP____  YO OS SALVAR\xC9 ________\r\nNOENTRESNOENTRESNOENTRESNOENTRESNOENTRESNOENTRESNOENTRESNOENTRESNOENTRES\r\nNOENTRESNOENTRESNOENTRESNOENTRESNOENTRESNOENTRESNOENTRESNOENTRESNOENTRES\r\nNOENTRESNOENTRESNOENTRESNOENTRESNOENTRESNOENTRESNOENTRESNOENTRESNOENTRES\r\nNOENTRESNOENTRESNOENTRESNOENTRESNOENTRESNOENTRESNOENTRESNOENTRESNOENTRES\r\nNOENTRESNOENTRESNOENTRESNOENTRESNOENTRESNOENTRESNOENTRESNOENTRESNOENTRES\r\n"
   - Section: inventory
     Localizations:
     - Key: context.use
