@@ -16130,12 +16130,21 @@ PrefabInstance:
       value: 1a62d00e739445248211bcfbc6189138
       objectReference: {fileID: 0}
     - target: {fileID: 1573410533154610038, guid: 7c70a6517c8f14c4a81eea608f695238, type: 3}
+      propertyPath: lockedSound.volume
+      value: 0.606
+      objectReference: {fileID: 0}
+    - target: {fileID: 1573410533154610038, guid: 7c70a6517c8f14c4a81eea608f695238, type: 3}
       propertyPath: openable.openSpeed
       value: 10
       objectReference: {fileID: 0}
     - target: {fileID: 1573410533154610038, guid: 7c70a6517c8f14c4a81eea608f695238, type: 3}
+      propertyPath: unlockSound.volume
+      value: 0.66
+      objectReference: {fileID: 0}
+    - target: {fileID: 1573410533154610038, guid: 7c70a6517c8f14c4a81eea608f695238, type: 3}
       propertyPath: lockedText.GlocText
-      value: '*Necesita una llave'
+      value: "*Debe de haber una llave por aqu\xED, en muchos sitios de Estados Unidos
+        lo esconden cerca de la entrada."
       objectReference: {fileID: 0}
     - target: {fileID: 1573410533154610038, guid: 7c70a6517c8f14c4a81eea608f695238, type: 3}
       propertyPath: useSound1.audioClip
@@ -16145,6 +16154,14 @@ PrefabInstance:
       propertyPath: useSound2.audioClip
       value: 
       objectReference: {fileID: 8300000, guid: ca555b95d76d43949a7636ba2e6cacac, type: 3}
+    - target: {fileID: 1573410533154610038, guid: 7c70a6517c8f14c4a81eea608f695238, type: 3}
+      propertyPath: lockedSound.audioClip
+      value: 
+      objectReference: {fileID: 8300000, guid: d1a815b25b70cea49b94722c80072a4d, type: 3}
+    - target: {fileID: 1573410533154610038, guid: 7c70a6517c8f14c4a81eea608f695238, type: 3}
+      propertyPath: unlockSound.audioClip
+      value: 
+      objectReference: {fileID: 8300000, guid: f828ceff7c2f48b44bb8119796e046b7, type: 3}
     - target: {fileID: 1573410533154610038, guid: 7c70a6517c8f14c4a81eea608f695238, type: 3}
       propertyPath: unlockItem.m_Item.GUID
       value: 1a62d00e739445248211bcfbc6189138
@@ -21396,15 +21413,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8650996677433523846, guid: afafcbdd323dc8f46ae17a1538073504, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 271.96863
+      value: 290.06635
       objectReference: {fileID: 0}
     - target: {fileID: 8650996677433523846, guid: afafcbdd323dc8f46ae17a1538073504, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 11.835225
+      value: 11.915121
       objectReference: {fileID: 0}
     - target: {fileID: 8650996677433523846, guid: afafcbdd323dc8f46ae17a1538073504, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 151.25374
+      value: 155.13078
       objectReference: {fileID: 0}
     - target: {fileID: 8650996677433523846, guid: afafcbdd323dc8f46ae17a1538073504, type: 3}
       propertyPath: m_LocalRotation.w
@@ -37402,15 +37419,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 9212739215934360337, guid: 0ec517b898f56f24c9cb3c9186aad970, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 1.8122157
+      value: 19.91
       objectReference: {fileID: 0}
     - target: {fileID: 9212739215934360337, guid: 0ec517b898f56f24c9cb3c9186aad970, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 1.0201051
+      value: 1.1
       objectReference: {fileID: 0}
     - target: {fileID: 9212739215934360337, guid: 0ec517b898f56f24c9cb3c9186aad970, type: 3}
       propertyPath: m_LocalPosition.z
-      value: -4.2470217
+      value: -0.37
       objectReference: {fileID: 0}
     - target: {fileID: 9212739215934360337, guid: 0ec517b898f56f24c9cb3c9186aad970, type: 3}
       propertyPath: m_LocalRotation.w
