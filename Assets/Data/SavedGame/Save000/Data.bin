@@ -1,18 +1,18 @@
 {
-  "id": "b0b56372e92b46c68044fe15fd798d93",
+  "id": "ac10399e9f2e4859ac81b4bd76f5fd92",
   "playerData": {
     "position": {
-      "x": 0.0,
-      "y": 1.0,
-      "z": -3.7
+      "x": 272.711639,
+      "y": 9.164107,
+      "z": 257.797516
     },
     "rotation": {
-      "x": 0.0,
-      "y": 0.0
+      "x": 92.04196,
+      "y": 1.99999118
     },
     "localData": {
-      "health": 100,
-      "selectedItem": -1,
+      "health": 48,
+      "selectedItem": 4,
       "playerItems": {
         "playerItem_0": {
           "recordingTime": 0,
@@ -25,7 +25,7 @@
           "flashlightAttached": false
         },
         "playerItem_4": {
-          "batteryEnergy": 320.0
+          "batteryEnergy": 301.834167
         },
         "playerItem_5": {
           "currentFuel": 60.0
@@ -41,11 +41,42 @@
     "globalData": {
       "inventory": {
         "expanded": 0,
-        "items": {},
+        "items": {
+          "item_0": {
+            "item": "ba53a6ad76bb4513ba434a3b7542345a",
+            "quantity": 1,
+            "orientation": 0,
+            "position": {
+              "x": 0,
+              "y": 0
+            },
+            "customData": {}
+          },
+          "item_1": {
+            "item": "e504d12d72e249a898b3ae4b65604ae0",
+            "quantity": 2,
+            "orientation": 0,
+            "position": {
+              "x": 2,
+              "y": 0
+            },
+            "customData": {}
+          },
+          "item_2": {
+            "item": "4361f4a241d64621a30135a552163296",
+            "quantity": 2,
+            "orientation": 0,
+            "position": {
+              "x": 3,
+              "y": 0
+            },
+            "customData": {}
+          }
+        },
         "shortcuts": {
-          "shortcut_0": "{}",
+          "shortcut_0": "ba53a6ad76bb4513ba434a3b7542345a",
           "shortcut_1": "{}",
-          "shortcut_2": "{}",
+          "shortcut_2": "4361f4a241d64621a30135a552163296",
           "shortcut_3": "{}"
         }
       },
@@ -53,68 +84,7 @@
     }
   },
   "worldState": {
-    "worldSaveables": {
-      "DraggableItem.3e68c6f6b1c44134a82bf3d46b6da441": {
-        "position": {
-          "x": -4.617,
-          "y": -57.1664963,
-          "z": -0.15700005
-        },
-        "rotation": {
-          "x": 270.0,
-          "y": 5.14461826E-05,
-          "z": 0.0
-        }
-      },
-      "TimedInteractEvent.ff2e5aea67d50d8418f8686a54fc5984": {
-        "interactOnce": false,
-        "isInteractTimed": false
-      },
-      "DraggableItem.91dd442fed268b941ac38fc3b603adf7": {
-        "position": {
-          "x": -4.539,
-          "y": -57.1664963,
-          "z": -0.421
-        },
-        "rotation": {
-          "x": 270.0,
-          "y": 319.823547,
-          "z": 0.0
-        }
-      },
-      "SaveableObject.cf1c6973fc756394f97c258f3aaa8d04": {
-        "position": {
-          "x": 0.0,
-          "y": -29.0,
-          "z": -2.0
-        },
-        "rotation": {
-          "x": 0.0,
-          "y": 0.0,
-          "z": 0.0
-        }
-      },
-      "NPCHealth.8265adb30f32746429b547e96c47e169": {
-        "position": {
-          "x": -21.095787,
-          "y": -58.9676666,
-          "z": 6.0520196
-        },
-        "rotation": {
-          "x": 0.0,
-          "y": 316.6377,
-          "z": 0.0
-        },
-        "health": 100
-      },
-      "TimedInteractEvent.95db2638c2db08744aa4f2aa8be2a4f0": {
-        "interactOnce": false,
-        "isInteractTimed": false
-      },
-      "ElevatorSystem.d02f0d61bd5dd474eade2bce1d473c5b": {
-        "floor": 2
-      }
-    },
+    "worldSaveables": {},
     "runtimeSaveables": {}
   }
 }
