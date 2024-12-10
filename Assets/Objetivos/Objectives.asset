@@ -31,7 +31,7 @@ MonoBehaviour:
     - SubObjectiveKey: Investiga
       CompleteCount: 0
       ObjectiveText:
-        GlocText: '*Investiga Para grabar el suceso'
+        GlocText: '*Investiga sobre posibles pistas para '
         NormalText: Investiga Para grabar el suceso
     - SubObjectiveKey: Medicamentos
       CompleteCount: 3
