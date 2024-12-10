@@ -5121,8 +5121,8 @@ MonoBehaviour:
   pullable:
     <DynamicObject>k__BackingField: {fileID: 280250359}
     openLimits:
-      min: 0.2224975
-      max: 0.542
+      min: 0.125
+      max: 0.277
     pullAxis: 0
     openCurve:
       serializedVersion: 2
@@ -18282,6 +18282,10 @@ PrefabInstance:
       propertyPath: m_LocalPosition.x
       value: 0.694
       objectReference: {fileID: 0}
+    - target: {fileID: 3139137134751956145, guid: 7c70a6517c8f14c4a81eea608f695238, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.753
+      objectReference: {fileID: 0}
     - target: {fileID: 3232755044619283086, guid: 7c70a6517c8f14c4a81eea608f695238, type: 3}
       propertyPath: m_IsActive
       value: 0
@@ -19440,7 +19444,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7558139901766899410, guid: 7c70a6517c8f14c4a81eea608f695238, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0.751
+      value: 0.75
+      objectReference: {fileID: 0}
+    - target: {fileID: 7558139901766899410, guid: 7c70a6517c8f14c4a81eea608f695238, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0.228
       objectReference: {fileID: 0}
     - target: {fileID: 7566583835003781416, guid: 7c70a6517c8f14c4a81eea608f695238, type: 3}
       propertyPath: m_Layer
@@ -23937,15 +23945,15 @@ PrefabInstance:
       objectReference: {fileID: 1503643335}
     - target: {fileID: 4311242336086963106, guid: afafcbdd323dc8f46ae17a1538073504, type: 3}
       propertyPath: field of view
-      value: 60
+      value: 40
       objectReference: {fileID: 0}
     - target: {fileID: 4311242336086963106, guid: afafcbdd323dc8f46ae17a1538073504, type: 3}
       propertyPath: far clip plane
-      value: 1000
+      value: 5000
       objectReference: {fileID: 0}
     - target: {fileID: 4311242336086963106, guid: afafcbdd323dc8f46ae17a1538073504, type: 3}
       propertyPath: near clip plane
-      value: 0.01
+      value: 0.1
       objectReference: {fileID: 0}
     - target: {fileID: 4416771818175343733, guid: afafcbdd323dc8f46ae17a1538073504, type: 3}
       propertyPath: m_IsActive
@@ -24181,31 +24189,31 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8650996677433523846, guid: afafcbdd323dc8f46ae17a1538073504, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 275.03635
+      value: 349.5888
       objectReference: {fileID: 0}
     - target: {fileID: 8650996677433523846, guid: afafcbdd323dc8f46ae17a1538073504, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 8.4751215
+      value: -1.4453411
       objectReference: {fileID: 0}
     - target: {fileID: 8650996677433523846, guid: afafcbdd323dc8f46ae17a1538073504, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 154.53078
+      value: 185.7453
       objectReference: {fileID: 0}
     - target: {fileID: 8650996677433523846, guid: afafcbdd323dc8f46ae17a1538073504, type: 3}
       propertyPath: m_LocalRotation.w
-      value: -0.051288906
+      value: 0.00042631838
       objectReference: {fileID: 0}
     - target: {fileID: 8650996677433523846, guid: afafcbdd323dc8f46ae17a1538073504, type: 3}
       propertyPath: m_LocalRotation.x
-      value: 0.0013034032
+      value: 0.0006135402
       objectReference: {fileID: 0}
     - target: {fileID: 8650996677433523846, guid: afafcbdd323dc8f46ae17a1538073504, type: 3}
       propertyPath: m_LocalRotation.y
-      value: -0.998667
+      value: 0.9999979
       objectReference: {fileID: 0}
     - target: {fileID: 8650996677433523846, guid: afafcbdd323dc8f46ae17a1538073504, type: 3}
       propertyPath: m_LocalRotation.z
-      value: 0.00566969
+      value: -0.0019328463
       objectReference: {fileID: 0}
     - target: {fileID: 9130926432974463028, guid: afafcbdd323dc8f46ae17a1538073504, type: 3}
       propertyPath: m_AnchorMax.y
@@ -36538,8 +36546,8 @@ MonoBehaviour:
   pullable:
     <DynamicObject>k__BackingField: {fileID: 1665165438}
     openLimits:
-      min: 0.2224975
-      max: 0.542
+      min: 0.125
+      max: 0.277
     pullAxis: 0
     openCurve:
       serializedVersion: 2
@@ -37137,8 +37145,8 @@ MonoBehaviour:
   pullable:
     <DynamicObject>k__BackingField: {fileID: 1676723463}
     openLimits:
-      min: 0.2224975
-      max: 0.542
+      min: 0.694
+      max: 0.854
     pullAxis: 0
     openCurve:
       serializedVersion: 2
@@ -42538,8 +42546,8 @@ MonoBehaviour:
   pullable:
     <DynamicObject>k__BackingField: {fileID: 1947093494}
     openLimits:
-      min: 0.2224975
-      max: 0.542
+      min: 0.694
+      max: 0.854
     pullAxis: 0
     openCurve:
       serializedVersion: 2
