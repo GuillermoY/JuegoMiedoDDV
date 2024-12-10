@@ -32,9 +32,14 @@ MonoBehaviour:
       CompleteCount: 0
       ObjectiveText:
         GlocText: '*Investiga sobre posibles pistas para '
-        NormalText: Investiga Para grabar el suceso
+        NormalText: 'Investiga sobre posibles pistas para '
     - SubObjectiveKey: Medicamentos
       CompleteCount: 3
       ObjectiveText:
         GlocText: '*Recoge al menos 3 medicamentos para tratar tu salud'
         NormalText: Recoge al menos 3 medicamentos para tratar tu salud
+  - ObjectiveKey: Sal
+    ObjectiveTitle:
+      GlocText: "*SAL DE AQU\xCD AHORA"
+      NormalText: "SAL DE AQU\xCD AHORA"
+    SubObjectives: []

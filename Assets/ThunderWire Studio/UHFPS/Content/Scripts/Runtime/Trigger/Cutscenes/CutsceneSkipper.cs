@@ -6,23 +6,24 @@ using UnityEngine.Playables;
 public class CutsceneSkipper : MonoBehaviour
 {
     [SerializeField] PlayableDirector pDirector;
+    [SerializeField] float tiempoSkip;
     // Update is called once per frame
     void Update()
     {
         if (Input.GetKeyDown(KeyCode.S))
         {
-            SkipCutscene(40f);
+            SkipCutscene(tiempoSkip);
         }
     }
     public void SkipCutscene(float TiempoCutScene)
     {
-        if (pDirector.time < 40f)
+        if (pDirector.time < TiempoCutScene)
         {
             pDirector.time = TiempoCutScene;
         }
         else
         {
-            pDirector.time = TiempoCutScene+39;
+            pDirector.time = TiempoCutScene+(TiempoCutScene-1);
         }
     }
 }
