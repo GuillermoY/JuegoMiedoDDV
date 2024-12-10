@@ -30,37 +30,37 @@ MonoBehaviour:
     - Key: action.crouch
       Text: Crouch
     - Key: action.use
-      Text: Use
+      Text: Usar
     - Key: action.examine
-      Text: Examine
+      Text: Examinar
     - Key: action.fire
       Text: Fire
     - Key: action.reload
-      Text: Reload
+      Text: Recargar
     - Key: action.ads
       Text: ADS
     - Key: action.equip1
-      Text: Equip 1
+      Text: Equipar 1
     - Key: action.equip2
-      Text: Equip 2
+      Text: Equipar 2
     - Key: action.equip3
-      Text: Equip 3
+      Text: Equipar 3
     - Key: action.equip4
-      Text: Equip 4
+      Text: Equipar 4
     - Key: action.unequip
-      Text: Unequip
+      Text: Desequipar
     - Key: action.lean.positive
       Text: Lean Right
     - Key: action.lean.negative
       Text: Lean Left
     - Key: action.flashlight
-      Text: Flashlight
+      Text: Linterna
   - Section: menu
     Localizations:
     - Key: button.resume
-      Text: Resume
+      Text: Resumir
     - Key: button.continue
-      Text: Continue
+      Text: Continuar
     - Key: button.newgame
       Text: New Game
     - Key: button.loadgame
@@ -126,29 +126,29 @@ MonoBehaviour:
   - Section: titles
     Localizations:
     - Key: putaway
-      Text: Put Away
+      Text: Dejar
     - Key: take
-      Text: Take
+      Text: Tomar
     - Key: rotate
-      Text: Rotate
+      Text: Rotar
     - Key: loot
-      Text: Looted
+      Text: Recoger
     - Key: inserttape
-      Text: Insert Tape
+      Text: Meter Cassette
     - Key: poweron
-      Text: Power On
+      Text: Encender
     - Key: poweroff
-      Text: Power Off
+      Text: Apagar
     - Key: ejecttape
-      Text: Eject Tape
+      Text: Sacar Cassette
     - Key: play
-      Text: Play
+      Text: Reproducir
     - Key: pause
-      Text: Pause
+      Text: Pausar
     - Key: rewind
-      Text: Rewind
+      Text: Rebobinar
     - Key: fastforward
-      Text: Fast Forward
+      Text: Adelantar
     - Key: lockpicks
       Text: 'Lockpicks: [count]'
   - Section: interactions
@@ -168,21 +168,21 @@ MonoBehaviour:
     - Key: insertfuse
       Text: Insert Fuse
     - Key: code
-      Text: Enter Code
+      Text: "Insertar C\xF3digo"
     - Key: card
-      Text: Use Keycard
+      Text: Usar Tarjeta
     - Key: switch
-      Text: Switch
+      Text: Cambiar
     - Key: switchon
-      Text: Switch On
+      Text: Encender
     - Key: switchoff
-      Text: Switch Off
+      Text: Apagar
     - Key: poweron
-      Text: Power On
+      Text: Encender
     - Key: poweroff
-      Text: Power Off
+      Text: Apagar
     - Key: rotate
-      Text: Rotate
+      Text: Rotar
     - Key: open
       Text: Abrir
     - Key: close
@@ -210,11 +210,11 @@ MonoBehaviour:
     - Key: padlock
       Text: Padlock
     - Key: lever
-      Text: Lever
+      Text: Palanca
     - Key: paneldoor
-      Text: Panel Door
+      Text: Puerta Panel
     - Key: door
-      Text: Door
+      Text: Puerta
     - Key: valve
       Text: Valve
     - Key: drawer
@@ -236,7 +236,7 @@ MonoBehaviour:
     - Key: zipline
       Text: Zipline
     - Key: paper
-      Text: Paper
+      Text: Papel
     - Key: chest
       Text: Chest
     - Key: lamp
@@ -252,35 +252,35 @@ MonoBehaviour:
     - Key: floodlight
       Text: Flood Light
     - Key: maze
-      Text: Maze Puzzle
+      Text: 'Puzzle Laberinto '
     - Key: cabinet
-      Text: Puerta Armario
+      Text: Armario
   - Section: controls
     Localizations:
     - Key: name.exit
-      Text: Exit
+      Text: Salir
     - Key: name.close
-      Text: Close
+      Text: Cerrar
     - Key: name.move
-      Text: Move
+      Text: Mover
     - Key: name.rotate
-      Text: Rotate
+      Text: Rotar
     - Key: name.select
-      Text: Select
+      Text: Seleccionar
     - Key: name.zoom
-      Text: Zoom
+      Text: Ampliar
     - Key: name.drop
-      Text: Drop
+      Text: Tirar
     - Key: name.throw
-      Text: Throw
+      Text: Lanzar
     - Key: name.take
-      Text: Take
+      Text: Tomar
     - Key: name.read
-      Text: Read
+      Text: Leer
     - Key: name.putback
-      Text: Put Back
+      Text: Dejar
     - Key: name.back
-      Text: Back
+      Text: "Atr\xE1s"
   - Section: messages
     Localizations:
     - Key: backpack
@@ -581,21 +581,21 @@ MonoBehaviour:
   - Section: options
     Localizations:
     - Key: brightness
-      Text: Brightness
+      Text: Brillo
     - Key: camera.fov
-      Text: Camera FOV
+      Text: "Campo de visi\xF3n Camara "
     - Key: look.sensitivity
-      Text: Look Sensitivity
+      Text: Sensibilidad al mirar
     - Key: look.smoothing
-      Text: Look Smoothing
+      Text: Suavizado al mirar
     - Key: smoothing.speed
-      Text: Smoothing Speed
+      Text: 'Velocidad Suavizado '
     - Key: show.fps
-      Text: Show FPS
+      Text: FPS
     - Key: display
-      Text: Display
+      Text: Pantalla
     - Key: display.mode
-      Text: Display Mode
+      Text: Modo Pantalla
     - Key: screen.res
       Text: Screen Resolution
     - Key: frame.rate
@@ -615,7 +615,7 @@ MonoBehaviour:
     - Key: shadow.distance
       Text: Shadow Distance
     - Key: bloom
-      Text: Bloom
+      Text: Resplandecer
     - Key: vignette
       Text: Vignette
     - Key: film.grain
@@ -623,6 +623,6 @@ MonoBehaviour:
     - Key: chromatic
       Text: Chromatic Aberration
     - Key: audio.general
-      Text: General Volume
+      Text: General Volumen
     - Key: audio.music
-      Text: Music Volume
+      Text: Musica Volumen
