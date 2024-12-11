@@ -27,67 +27,67 @@ MonoBehaviour:
       Narrator: Juan
       NarratorColor: {r: 1, g: 1, b: 1, a: 1}
       Text:
-        GlocText: 'No puedo parar de pensar en aquel anuncio. '
+        GlocText: '*No puedo parar de pensar en aquel anuncio. '
         NormalText: 
     - Time: 2.6691835
       Narrator: Juan
       NarratorColor: {r: 1, g: 1, b: 1, a: 1}
       Text:
-        GlocText: "\xBFAcaso era una broma pesada? "
+        GlocText: "*\xBFAcaso era una broma pesada? "
         NormalText: 
     - Time: 4.7689414
       Narrator: Juan
       NarratorColor: {r: 1, g: 1, b: 1, a: 1}
       Text:
-        GlocText: "\xBFC\xF3mo es posible que mi profesor estuviera en ese comercial? "
+        GlocText: "*\xBFC\xF3mo es posible que mi profesor estuviera en ese comercial? "
         NormalText: 
     - Time: 8.221086
       Narrator: Juan
       NarratorColor: {r: 1, g: 1, b: 1, a: 1}
       Text:
-        GlocText: 'Lleva meses desaparecido... '
+        GlocText: '*Lleva meses desaparecido... '
         NormalText: 
     - Time: 10.03613
       Narrator: Juan
       NarratorColor: {r: 1, g: 1, b: 1, a: 1}
       Text:
-        GlocText: "Y nadie ha tenido una sola pista desde hace a\xF1os."
+        GlocText: "*Y nadie ha tenido una sola pista desde hace a\xF1os."
         NormalText: 
     - Time: 13.381507
       Narrator: Juan
       NarratorColor: {r: 1, g: 1, b: 1, a: 1}
       Text:
-        GlocText: "Ni la polic\xEDa, ni sus padres, ni yo..."
+        GlocText: "*Ni la polic\xEDa, ni sus padres, ni yo..."
         NormalText: 
     - Time: 17.403076
       Narrator: Juan
       NarratorColor: {r: 1, g: 1, b: 1, a: 1}
       Text:
-        GlocText: Hasta esa maldita cinta.
+        GlocText: '*Hasta esa maldita cinta.'
         NormalText: 
     - Time: 19.965492
       Narrator: Juan
       NarratorColor: {r: 1, g: 1, b: 1, a: 1}
       Text:
-        GlocText: "Tal vez est\xE9 cometiendo un error."
+        GlocText: "*Tal vez est\xE9 cometiendo un error."
         NormalText: 
     - Time: 22.49232
       Narrator: Juan
       NarratorColor: {r: 1, g: 1, b: 1, a: 1}
       Text:
-        GlocText: "Quiz\xE1 alguien me envi\xF3 esa cinta para jugar conmigo, para
+        GlocText: "*Quiz\xE1 alguien me envi\xF3 esa cinta para jugar conmigo, para
           asustarme. Pero... \xBFpor qu\xE9?  "
         NormalText: 
     - Time: 28.827183
       Narrator: Juan
       NarratorColor: {r: 1, g: 1, b: 1, a: 1}
       Text:
-        GlocText: "Y si es un enga\xF1o... \xBFpor qu\xE9 siento que esto es lo m\xE1s
-          cerca que he estado de encontrarlo?"
+        GlocText: "*Y si es un enga\xF1o... \xBFpor qu\xE9 siento que esto es lo
+          m\xE1s cerca que he estado de encontrarlo?"
         NormalText: 
     - Time: 34.592617
       Narrator: Juan
       NarratorColor: {r: 1, g: 1, b: 1, a: 1}
       Text:
-        GlocText: "En fin\u2026 No tengo otra opci\xF3n. A ver que me depara "
+        GlocText: "*En fin\u2026 No tengo otra opci\xF3n. A ver que me depara "
         NormalText: 

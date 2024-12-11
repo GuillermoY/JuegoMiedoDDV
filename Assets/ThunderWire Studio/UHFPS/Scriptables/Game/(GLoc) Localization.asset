@@ -16,29 +16,29 @@ MonoBehaviour:
   - Section: input
     Localizations:
     - Key: action.movement.up
-      Text: Move Forward
+      Text: Mover Adelante
     - Key: action.movement.down
-      Text: Move Backward
+      Text: "Mover Atr\xE1s"
     - Key: action.movement.left
-      Text: Move Left
+      Text: Mover Izquierda
     - Key: action.movement.right
-      Text: Move Right
+      Text: Mover Derecha
     - Key: action.sprint
-      Text: Sprint
+      Text: Correr
     - Key: action.jump
-      Text: Jump
+      Text: Saltar
     - Key: action.crouch
-      Text: Crouch
+      Text: Agacharse
     - Key: action.use
       Text: Usar
     - Key: action.examine
       Text: Examinar
     - Key: action.fire
-      Text: Fire
+      Text: Disparar
     - Key: action.reload
       Text: Recargar
     - Key: action.ads
-      Text: ADS
+      Text: Apuntar
     - Key: action.equip1
       Text: Equipar 1
     - Key: action.equip2
@@ -50,9 +50,9 @@ MonoBehaviour:
     - Key: action.unequip
       Text: Desequipar
     - Key: action.lean.positive
-      Text: Lean Right
+      Text: Inclinarse Derecha
     - Key: action.lean.negative
-      Text: Lean Left
+      Text: Inclinarse Izquierda
     - Key: action.flashlight
       Text: Linterna
   - Section: menu
@@ -62,55 +62,55 @@ MonoBehaviour:
     - Key: button.continue
       Text: Continuar
     - Key: button.newgame
-      Text: New Game
+      Text: Nueva Partida
     - Key: button.loadgame
-      Text: Load Game
+      Text: Cargar Juego
     - Key: button.savegame
-      Text: Save Game
+      Text: Guardar Juego
     - Key: button.options
-      Text: Options
+      Text: Opciones
     - Key: button.quit
-      Text: Quit
+      Text: Salir
     - Key: button.restart
-      Text: Restart
+      Text: Reiniciar
     - Key: button.mainmenu
-      Text: Main Menu
+      Text: "Men\xFA Principal"
     - Key: button.back
-      Text: Back
+      Text: "Atr\xE1s"
     - Key: button.apply
-      Text: Apply
+      Text: Aplicar
     - Key: tooltip.continue
-      Text: Resume your saved progress
+      Text: Continua tu progreso guardado
     - Key: tooltip.resume
-      Text: Continue playing game
+      Text: Continua Jugando
     - Key: tooltip.newgame
-      Text: Start a new game
+      Text: Empieza una nueva partida
     - Key: tooltip.loadgame
-      Text: Load a previously saved games
+      Text: Carga una partida empezada
     - Key: tooltip.savegame
-      Text: Save your current progress
+      Text: Guarda tu progreso actual.
     - Key: tooltip.options
-      Text: Adjust game settings and preferences
+      Text: Configura los ajustes del juego y sus preferencias.
     - Key: tooltip.quit
-      Text: Exit the game
+      Text: Salir del juego
     - Key: tooltip.restart
-      Text: Start the game from your most recent saved data
+      Text: "Empieza la partida desde tu punto de guardado m\xE1s reciente"
     - Key: tooltip.mainmenu
-      Text: Exit the game and go to the main menu
+      Text: "Sale de la partida y va al men\xFA principal."
     - Key: input.rebind
-      Text: Press Button
+      Text: Presiona una tecla
     - Key: input.none
-      Text: None
+      Text: Nada
     - Key: panel.loadgame
-      Text: Load Game
+      Text: Cargar Juego
     - Key: panel.keybindings
-      Text: Key Bindings
+      Text: Controles por tecla
     - Key: panel.emptysaves
-      Text: There are currently no saved games available.
+      Text: No hay partidas guardadas actualmente.
     - Key: text.pause
-      Text: Pause Menu
+      Text: "Men\xFA de Pausa"
     - Key: text.died
-      Text: You have died
+      Text: Has muerto
   - Section: loading
     Localizations:
     - Key: description.demoscene
@@ -376,21 +376,21 @@ MonoBehaviour:
   - Section: inventory
     Localizations:
     - Key: context.use
-      Text: Use
+      Text: Usar
     - Key: context.examine
-      Text: Examine
+      Text: Examinar
     - Key: context.combine
-      Text: Combine
+      Text: Combinar
     - Key: context.shortcut
-      Text: Shortcut
+      Text: Atajo
     - Key: context.drop
-      Text: Drop
+      Text: Tirar
     - Key: context.discard
-      Text: Discard
+      Text: Descartar
     - Key: prompt.shortcut
-      Text: Press the shortcut key to set the shortcut for the selected item.
+      Text: Presiona la tecla (1 al 4) que quieras asignar el atajo al objeto.
     - Key: prompt.combine
-      Text: Select the item you want to combine the current item with.
+      Text: Selecciona el objeto con el que quieras combinarlo.
   - Section: item
     Localizations:
     - Key: title.flashlight
@@ -597,32 +597,32 @@ MonoBehaviour:
     - Key: display.mode
       Text: Modo Pantalla
     - Key: screen.res
-      Text: Screen Resolution
+      Text: "Resoluci\xF3n de pantalla"
     - Key: frame.rate
-      Text: Frame Rate
+      Text: Tasa de Frames
     - Key: vsync
-      Text: Vertical Synchronization
+      Text: "Sincronizaci\xF3n Vertical"
     - Key: render.scale
-      Text: Render Scale
+      Text: Escala de Renderizado
     - Key: fsr
-      Text: FSR Sharpness
+      Text: "Afinaci\xF3n FSR"
     - Key: antialiasing
       Text: Antialiasing
     - Key: anisotropic
-      Text: Anisotropic Filtering
+      Text: "Filtrado Anisotr\xF3pico"
     - Key: texture.quality
-      Text: Texture Quality
+      Text: Calidad de Texturas
     - Key: shadow.distance
-      Text: Shadow Distance
+      Text: 'Distancia de Sombreado '
     - Key: bloom
       Text: Resplandecer
     - Key: vignette
-      Text: Vignette
+      Text: "Vi\xF1eta"
     - Key: film.grain
-      Text: Film Grain
+      Text: Graino de Pelicula
     - Key: chromatic
-      Text: Chromatic Aberration
+      Text: "Aberraci\xF3n Chrom\xE1tica\t"
     - Key: audio.general
-      Text: General Volumen
+      Text: 'Volumen General '
     - Key: audio.music
-      Text: Musica Volumen
+      Text: "Volumen M\xFAsica "
