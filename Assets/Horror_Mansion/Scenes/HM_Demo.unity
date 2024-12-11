@@ -33212,7 +33212,8 @@ MonoBehaviour:
       GUID: 
   showLockedText: 1
   lockedText:
-    GlocText: "*Se puede leer ligeramente \"La respuesta est\xE1 en las notas\""
+    GlocText: "*Se puede leer ligeramente \"La respuesta est\xE1 en los l\xEDbros,
+      b\xFAscalos\""
     NormalText: 
   ignoreColliders: []
   ignorePlayerCollider: 0
