@@ -42,4 +42,9 @@ MonoBehaviour:
     ObjectiveTitle:
       GlocText: "*SAL DE AQU\xCD AHORA"
       NormalText: "SAL DE AQU\xCD AHORA"
-    SubObjectives: []
+    SubObjectives:
+    - SubObjectiveKey: Hazlo
+      CompleteCount: 0
+      ObjectiveText:
+        GlocText: '*Esto es una trampa, tengo que salir ya'
+        NormalText: Esto es una trampa, tengo que salir ya

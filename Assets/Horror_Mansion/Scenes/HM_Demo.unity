@@ -28643,16 +28643,15 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0bef1a4507177f14ca3a2b2e08bd4e6d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  triggerType: 2
+  triggerType: 0
   objectiveType: 0
   objectiveToAdd:
     ObjectiveKey: Sal
     SubObjectives:
-    - 
+    - Hazlo
   objectiveToComplete:
-    ObjectiveKey: InvestigaCasa
-    SubObjectives:
-    - Investiga
+    ObjectiveKey: 
+    SubObjectives: []
 --- !u!4 &1066380790
 Transform:
   m_ObjectHideFlags: 0
@@ -48845,11 +48844,10 @@ MonoBehaviour:
   objectiveToAdd:
     ObjectiveKey: InvestigaCasa
     SubObjectives:
-    - Medciamentos
+    - Medicamentos
   objectiveToComplete:
-    ObjectiveKey: EntraCasa
-    SubObjectives:
-    - EntraCasa
+    ObjectiveKey: 
+    SubObjectives: []
 --- !u!114 &1821229976
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -52185,7 +52183,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &1997729970
 Transform:
   m_ObjectHideFlags: 0
@@ -55808,6 +55806,18 @@ MonoBehaviour:
           m_FloatArgument: 0
           m_StringArgument: 
           m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 1997729969}
+        m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
+        m_MethodName: SetActive
+        m_Mode: 6
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 1
         m_CallState: 2
   TriggerExit:
     m_PersistentCalls:
