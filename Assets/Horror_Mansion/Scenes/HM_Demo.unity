@@ -6597,7 +6597,7 @@ MonoBehaviour:
     GlocText: 
     NormalText: 
   PaperText:
-    GlocText: papers.Dia666
+    GlocText: papers.Dia32
     NormalText: 'This is an example text for a paper to demonstrate the examination
       system. You can display the text on the paper using a texture or rewrite the
       text as paper examination text.
@@ -22806,8 +22806,44 @@ PrefabInstance:
       value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 7769506754456284168, guid: 7c70a6517c8f14c4a81eea608f695238, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 271.248
+      objectReference: {fileID: 0}
+    - target: {fileID: 7769506754456284168, guid: 7c70a6517c8f14c4a81eea608f695238, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 13.659
+      objectReference: {fileID: 0}
+    - target: {fileID: 7769506754456284168, guid: 7c70a6517c8f14c4a81eea608f695238, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 247.604
+      value: 247.594
+      objectReference: {fileID: 0}
+    - target: {fileID: 7769506754456284168, guid: 7c70a6517c8f14c4a81eea608f695238, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.58590925
+      objectReference: {fileID: 0}
+    - target: {fileID: 7769506754456284168, guid: 7c70a6517c8f14c4a81eea608f695238, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0.8103765
+      objectReference: {fileID: 0}
+    - target: {fileID: 7769506754456284168, guid: 7c70a6517c8f14c4a81eea608f695238, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0.00022771652
+      objectReference: {fileID: 0}
+    - target: {fileID: 7769506754456284168, guid: 7c70a6517c8f14c4a81eea608f695238, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0.00052447047
+      objectReference: {fileID: 0}
+    - target: {fileID: 7769506754456284168, guid: 7c70a6517c8f14c4a81eea608f695238, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 108.26599
+      objectReference: {fileID: 0}
+    - target: {fileID: 7769506754456284168, guid: 7c70a6517c8f14c4a81eea608f695238, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: -0.10699463
+      objectReference: {fileID: 0}
+    - target: {fileID: 7769506754456284168, guid: 7c70a6517c8f14c4a81eea608f695238, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: -0.04498291
       objectReference: {fileID: 0}
     - target: {fileID: 7850914253039398346, guid: 7c70a6517c8f14c4a81eea608f695238, type: 3}
       propertyPath: m_Intensity
@@ -50094,7 +50130,7 @@ MonoBehaviour:
     GlocText: 
     NormalText: 
   PaperText:
-    GlocText: papers.Dia666
+    GlocText: papers.Dia17
     NormalText: 'This is an example text for a paper to demonstrate the examination
       system. You can display the text on the paper using a texture or rewrite the
       text as paper examination text.
@@ -54898,7 +54934,7 @@ MonoBehaviour:
     GlocText: 
     NormalText: 
   PaperText:
-    GlocText: papers.Dia666
+    GlocText: papers.Dia1
     NormalText: 'This is an example text for a paper to demonstrate the examination
       system. You can display the text on the paper using a texture or rewrite the
       text as paper examination text.
