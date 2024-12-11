@@ -72,3 +72,5 @@ crashlytics-build.properties
 /[Aa]ssets/[Ss]treamingAssets/aa/*
 Assets/ThunderWire Studio/UHFPS/Content/Shaders/Heartbeat/Heartbeat.mat
 Assets/ThunderWire Studio/UHFPS/Content/Shaders/BloodOverlay/Material/BloodDisortion.mat
+Assets/Data/Config/GameOptions.json
+Assets/Data/Config/GameOptions.json.meta
