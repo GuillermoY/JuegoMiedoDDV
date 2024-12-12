@@ -1,0 +1,89 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 93cb5bd7e8a706a41b793e7440b34eea, type: 3}
+  m_Name: Entracasa
+  m_EditorClassIdentifier: 
+  Dialogues:
+  - DialogueAudio: {fileID: 8300000, guid: e1796800f3b5c4f44bde8e1291fc112a, type: 3}
+    SubtitleType: 1
+    SingleSubtitle:
+      Time: 0
+      Narrator: Juan
+      NarratorColor: {r: 1, g: 1, b: 1, a: 1}
+      Text:
+        GlocText: "*Qu\xE9 extra\xF1o, yo me esperaba una mansi\xF3n m\xE1s abandonada,
+          incluso las luces se encuentran encendidas..."
+        NormalText: 
+    Subtitles:
+    - Time: 0
+      Narrator: Juan
+      NarratorColor: {r: 1, g: 1, b: 1, a: 1}
+      Text:
+        GlocText: "*Qu\xE9 extra\xF1o, yo me esperaba una mansi\xF3n m\xE1s abandonada."
+        NormalText: 
+    - Time: 8.221086
+      Narrator: Juan
+      NarratorColor: {r: 1, g: 1, b: 1, a: 1}
+      Text:
+        GlocText: '*Lleva seis meses desaparecido... Y nadie ha tenido una sola pista
+          desde entonces.'
+        NormalText: 
+    - Time: 12.107463
+      Narrator: Juan
+      NarratorColor: {r: 1, g: 1, b: 1, a: 1}
+      Text:
+        GlocText: "*Ni la polic\xEDa, ni sus padres, ni yo..."
+        NormalText: 
+    - Time: 15.235224
+      Narrator: Juan
+      NarratorColor: {r: 1, g: 1, b: 1, a: 1}
+      Text:
+        GlocText: '*Hasta esta maldita cinta.'
+        NormalText: 
+    - Time: 17.757612
+      Narrator: Juan
+      NarratorColor: {r: 1, g: 1, b: 1, a: 1}
+      Text:
+        GlocText: "*\xBFC\xF3mo es posible que mi profesor estuviera en ese comercial?"
+        NormalText: 
+    - Time: 21.692537
+      Narrator: Juan
+      NarratorColor: {r: 1, g: 1, b: 1, a: 1}
+      Text:
+        GlocText: "*Tal vez est\xE9 cometiendo un error, quiz\xE1 alguien me envi\xF3
+          esa cinta para jugar conmigo..."
+        NormalText: 
+    - Time: 26.440052
+      Narrator: Juan
+      NarratorColor: {r: 1, g: 1, b: 1, a: 1}
+      Text:
+        GlocText: "*Para asustarme. Pero... \xBFpor qu\xE9?  "
+        NormalText: 
+    - Time: 31.003052
+      Narrator: Juan
+      NarratorColor: {r: 1, g: 1, b: 1, a: 1}
+      Text:
+        GlocText: "*Y si es un enga\xF1o... \xBFpor qu\xE9 siento que esto es lo
+          m\xE1s cerca que he estado de encontrarlo?"
+        NormalText: 
+    - Time: 35.870255
+      Narrator: Juan
+      NarratorColor: {r: 1, g: 1, b: 1, a: 1}
+      Text:
+        GlocText: "*En fin\u2026 No tengo otra opci\xF3n. A ver que me depara... "
+        NormalText: 
+    - Time: 3.8410537
+      Narrator: Juan
+      NarratorColor: {r: 1, g: 1, b: 1, a: 1}
+      Text:
+        GlocText: '*Incluso las luces se encuentran encendidas...'
+        NormalText: 
