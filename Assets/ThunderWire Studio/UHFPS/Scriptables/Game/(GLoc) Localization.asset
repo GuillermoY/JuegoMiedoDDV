@@ -498,10 +498,9 @@ MonoBehaviour:
       Text: Shed some light on any situation with this tactical attachment for your
         pistol. It illuminates your target and reveals hidden dangers in the darkness.
     - Key: title.key01
-      Text: Key 01
+      Text: Llave 01
     - Key: description.key01
-      Text: A generic, yet mysterious key with an unknown use. Keep it on hand, as
-        it may unlock doors, chests, or secrets yet to be discovered.
+      Text: Una llave que garantiza acceso a una puerta de la casa.
     - Key: title.key02
       Text: Key 02
     - Key: description.key02
@@ -513,10 +512,9 @@ MonoBehaviour:
       Text: A generic, yet mysterious key with an unknown use. Keep it on hand, as
         it may unlock doors, chests, or secrets yet to be discovered.
     - Key: title.key04
-      Text: Key 04
+      Text: Llave de la entrada
     - Key: description.key04
-      Text: A generic, yet mysterious key with an unknown use. Keep it on hand, as
-        it may unlock doors, chests, or secrets yet to be discovered.
+      Text: "Una llave que te garantiza el acceso al interior de la mansi\xF3n."
     - Key: title.keys
       Text: Keys
     - Key: description.keys
@@ -545,9 +543,10 @@ MonoBehaviour:
         A classic, durable format for video recording
         and archiving memories or documenting important events.'
     - Key: title.redkeycard
-      Text: Red Keycard
+      Text: Tarjeta de Acceso
     - Key: description.redkeycard
-      Text: A high-security access card that grants entry to restricted areas.
+      Text: Tarjeta de acceso de alta seguridad que te garantiza la entrada a sitios
+        restringidos.
     - Key: title.greenkeycard
       Text: Green Keycard
     - Key: description.greenkeycard
