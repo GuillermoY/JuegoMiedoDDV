@@ -286,11 +286,11 @@ MonoBehaviour:
     - Key: backpack
       Text: Your inventory slots have been expanded.
     - Key: nofit
-      Text: This item does not fit there.
+      Text: "Ese objeto no pertenece aqu\xED."
     - Key: objective.added
-      Text: New objective
+      Text: Nuevo Objetivo
     - Key: objective.completed
-      Text: Objective completed
+      Text: Objetivo Completado
     - Key: kindle.lighter
       Text: A lighter is needed to light the candle
     - Key: no.canisters
