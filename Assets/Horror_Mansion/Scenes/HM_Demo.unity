@@ -18658,8 +18658,8 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 24232596844513477, guid: 7a27bdd162f84ea40bb25b84529db593, type: 3}
       propertyPath: ItemCustomData.JsonData
-      value: "{\n\tname: \"Un video nada sospechoso!\",\n\tvideo: \"VHS/Video/NoEsNada\",\n\ttexture:
-        \"VHS/Texture/VHS_Monster\"\n}"
+      value: "{\n\tname: \"Una cinta VHS\",\n\tvideo: \"VHS/Video/VHS FINAL\",\n\ttexture:
+        \"VHS/Texture/NOENTRES\"\n}"
       objectReference: {fileID: 0}
     - target: {fileID: 3894855787502238423, guid: 7a27bdd162f84ea40bb25b84529db593, type: 3}
       propertyPath: m_LocalScale.x
