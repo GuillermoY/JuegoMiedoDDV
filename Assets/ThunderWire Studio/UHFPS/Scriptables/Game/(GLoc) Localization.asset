@@ -218,7 +218,7 @@ MonoBehaviour:
     - Key: valve
       Text: Valve
     - Key: drawer
-      Text: Drawer
+      Text: "Caj\xF3n"
     - Key: trunk
       Text: Storage Trunk
     - Key: backpack

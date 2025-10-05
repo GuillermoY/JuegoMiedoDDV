@@ -21,8 +21,8 @@ MonoBehaviour:
     - SubObjectiveKey: EntraCasa
       CompleteCount: 0
       ObjectiveText:
-        GlocText: "*Adentrate en la mansi\xF3n"
-        NormalText: "Adentrate en la mansi\xF3n"
+        GlocText: "*Adentrate en la mansi\xF3n."
+        NormalText: "Adentrate en la mansi\xF3n."
   - ObjectiveKey: InvestigaCasa
     ObjectiveTitle:
       GlocText: '*Investiga la Casa'
@@ -31,13 +31,8 @@ MonoBehaviour:
     - SubObjectiveKey: Investiga
       CompleteCount: 0
       ObjectiveText:
-        GlocText: '*Investiga sobre posibles pistas para '
-        NormalText: 'Investiga sobre posibles pistas para '
-    - SubObjectiveKey: Medicamentos
-      CompleteCount: 3
-      ObjectiveText:
-        GlocText: '*Recoge al menos 3 medicamentos para tratar tu salud'
-        NormalText: Recoge al menos 3 medicamentos para tratar tu salud
+        GlocText: '*Investiga sobre posibles pistas.'
+        NormalText: Investiga sobre posibles pistas.
   - ObjectiveKey: Sal
     ObjectiveTitle:
       GlocText: "*SAL DE AQU\xCD AHORA"
